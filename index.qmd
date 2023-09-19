@@ -1,11 +1,41 @@
 ---
-title: "statepol_website"
+title: "StatePol"
+subtitle: "The most comprehensive database on state politicians in Germany!"
+author:
+  - name: Elias Koch
+    orcid: 0009-0000-3341-219X
+    email: elias.koch@student.hu-berlin.de
+    affiliation: Humboldt-Universität zu Berlin
+  - name: Daniel Kuhlen
+    orcid: 0009-0009-4863-6458
+    email: kuhlenda@hu-berlin.de
+    affiliation: Humboldt-Universität zu Berlin
+  - name: Jochen Müller
+    orcid: 0000-0003-4021-7442
+    email: jochen.mueller@uni-greifswald.de
+    affiliation: Universität Greifswald
+  - name: Christian Stecker
+    orcid: 0000-0001-9577-7151
+    email: christian.stecker@tu-darmstadt.de
+    affiliation: Technische Universität Darmstadt
 ---
 
-This is a Quarto website.
+## Welcome {#welcome}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hier kommt noch Text
 
-```{r}
-1 + 1
-```
+## What is StatePol?
+
+![](images/datensatz_struktur.png){fig-align="center"}
+
+
+## How to contact us?
+We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project [GitHub repository](https://github.com/StatePol/Database/issues/new).
+
+One of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors.
+
+## Licence
+
+When referencing or utilizing any content from the Database, Users agree to cite the presentation publication as following:
+
+*Link zum Papier*
