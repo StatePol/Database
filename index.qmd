@@ -28,7 +28,6 @@ Hier kommt noch Text
 
 ![](images/datensatz_struktur.png){fig-align="center"}
 
-
 ## How to contact us?
 We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project [GitHub repository](https://github.com/StatePol/Database/issues/new).
 
@@ -36,6 +35,7 @@ One of our team members will respond to your query as soon as possible. We appre
 
 ## Licence
 
-When referencing or utilizing any content from the Database, Users agree to cite the presentation publication as following:
+When referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly ([PVS](https://www.springer.com/journal/11615)) as following:
 
-*Link zum Papier*
+
+

@@ -1,35 +1,43 @@
 project: 
   type: website
   output-dir: docs
-  
+
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
+  title: "StatePol Database" 
   site-url: "https://github.com/StatePol/Database" 
   repo-url: https://github.com/StatePol/Database 
   repo-actions: [edit, issue]
-  
+  search: 
+    location: navbar
+    type: overlay
+
   page-footer:
     left: "&copy; StatePol 2023"
-    
+  navbar:
+    background: "#9DB4C0"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: applications.qmd
+        text: Applications
   sidebar:
     logo: "images/hex_statepol.png"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
+      - icon: book
+        href: https://link.springer.com/book/10.1007/978-3-658-29222-5
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
-
+        href: https://github.com/StatePol/Database
     style: "docked"
     search: true
     collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - href: test.qmd
+        text: Test
 
 
 format:
