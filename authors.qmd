@@ -1,0 +1,13 @@
+---
+title: "Team"
+sidebar: false
+---
+
+| Team Member          | Affiliation                     | E-Mail               |
+|----------------------|:--------------------------------|:---------------------|
+| Elias Koch           | Humboldt-Universität zu Berlin  | elias.koch@hu-berlin.de|
+| Daniel Kuhlen        | Humboldt-Universität zu Berlin  | kuhlenda@hu-berlin.de|
+| Jochen Müller        | Universität Greifswald          | jochen.mueller@uni-greifswald.de|
+| Christian Stecker    | Technische Universität Darmstadt|christian.stecker@tu-darmstadt.de|
+
+

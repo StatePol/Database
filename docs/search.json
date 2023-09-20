@@ -23,15 +23,22 @@
   {
     "objectID": "index.html#how-to-contact-us",
     "href": "index.html#how-to-contact-us",
-    "title": "StatePol",
+    "title": "Welcome to StatePol",
     "section": "How to contact us?",
     "text": "How to contact us?\nWe deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project GitHub repository.\nOne of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors."
   },
   {
     "objectID": "index.html#licence",
     "href": "index.html#licence",
-    "title": "StatePol",
+    "title": "Welcome to StatePol",
     "section": "Licence",
     "text": "Licence\nWhen referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly (PVS) as following:"
+  },
+  {
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Team",
+    "section": "",
+    "text": "Team Member\nAffiliation\nE-Mail\n\n\n\n\nElias Koch\nHumboldt-Universität zu Berlin\nelias.koch@hu-berlin.de\n\n\nDaniel Kuhlen\nHumboldt-Universität zu Berlin\nkuhlenda@hu-berlin.de\n\n\nJochen Müller\nUniversität Greifswald\njochen.mueller@uni-greifswald.de\n\n\nChristian Stecker\nTechnische Universität Darmstadt\nchristian.stecker@tu-darmstadt.de"
   }
 ]

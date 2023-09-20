@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/StatePol/Database/index.html</loc>
-    <lastmod>2023-09-20T10:34:46.344Z</lastmod>
+    <lastmod>2023-09-20T20:25:36.040Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/test.html</loc>
-    <lastmod>2023-09-20T10:32:50.729Z</lastmod>
+    <lastmod>2023-09-20T19:28:33.261Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/applications.html</loc>
-    <lastmod>2023-09-20T10:32:57.162Z</lastmod>
+    <lastmod>2023-09-20T20:11:10.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/authors.html</loc>
+    <lastmod>2023-09-20T20:25:39.240Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/sources.html</loc>
+    <lastmod>2023-09-20T20:25:36.357Z</lastmod>
   </url>
 </urlset>

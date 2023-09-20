@@ -12,16 +12,27 @@ website:
     location: navbar
     type: overlay
 
+# page bottom formatting
   page-footer:
     left: "&copy; StatePol 2023"
+
+# navbar (top) formatting
   navbar:
     background: "#9DB4C0"
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: applications.qmd
         text: Applications
+      - href: sources.qmd
+        text: Sources
+      - href: authors.qmd
+        text: Team
+      
+        
+# side bar formatting
   sidebar:
+  - id: Home
     logo: "images/hex_statepol.png"
     pinned: true
     align: center
@@ -36,8 +47,23 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - href: test.qmd
-        text: Test
+  
+  - id: Applications
+    contents:
+      - href: applications.qmd
+        text: Applications
+        
+  - id: Sources
+    contents:
+      - href: sources.qmd
+        text: Sources
+        
+  - id: Team
+    contents:
+      - href: authors.qmd
+        text: Team
+  
+
 
 
 format:

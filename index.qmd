@@ -1,28 +1,7 @@
 ---
-title: "StatePol"
+title: "Welcome to StatePol"
 subtitle: "The most comprehensive database on state politicians in Germany!"
-author:
-  - name: Elias Koch
-    orcid: 0009-0000-3341-219X
-    email: elias.koch@student.hu-berlin.de
-    affiliation: Humboldt-Universität zu Berlin
-  - name: Daniel Kuhlen
-    orcid: 0009-0009-4863-6458
-    email: kuhlenda@hu-berlin.de
-    affiliation: Humboldt-Universität zu Berlin
-  - name: Jochen Müller
-    orcid: 0000-0003-4021-7442
-    email: jochen.mueller@uni-greifswald.de
-    affiliation: Universität Greifswald
-  - name: Christian Stecker
-    orcid: 0000-0001-9577-7151
-    email: christian.stecker@tu-darmstadt.de
-    affiliation: Technische Universität Darmstadt
 ---
-
-## Welcome {#welcome}
-
-Hier kommt noch Text
 
 ## What is StatePol?
 
