@@ -2,9 +2,10 @@ project:
   type: website
   output-dir: docs
 
-website: 
+website:
+  twitter-card: true
   page-navigation: true
-  title: "StatePol Database" 
+  title: "StatePol Database"
   site-url: "https://github.com/StatePol/Database" 
   repo-url: https://github.com/StatePol/Database 
   repo-actions: [edit, issue]
@@ -22,19 +23,20 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: structure.qmd
+        text: Database
       - href: applications.qmd
         text: Applications
-      - href: sources.qmd
-        text: Sources
       - href: authors.qmd
         text: Team
+      - href: citation.qmd
+        text: Citation
       
         
 # side bar formatting
   sidebar:
   - id: Home
-    logo: "images/hex_statepol.png"
-    pinned: true
+    logo: "_images/hex_statepol.png"
     align: center
     tools: 
       - icon: book
@@ -43,34 +45,47 @@ website:
         href: https://github.com/StatePol/Database
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 3
+    pinned: true
     contents:
       - href: index.qmd
         text: Welcome
   
+  - id: Database
+    contents:
+      - href: structure.qmd
+        text: Database
+      - href: datadict.qmd
+        text: Data Dictionary
+      - href: sources.qmd
+        text: Sources
+      - href: limitations.qmd
+        text: Limitations
+      - href: download.qmd
+        text: Download
+        
   - id: Applications
     contents:
       - href: applications.qmd
         text: Applications
         
-  - id: Sources
-    contents:
-      - href: sources.qmd
-        text: Sources
-        
   - id: Team
     contents:
       - href: authors.qmd
         text: Team
-  
-
+        
+  - id: Citation
+    contents:
+      - href: citation.qmd
+        text: Citation       
 
 
 format:
   html:
     theme:
       light: [cosmo, theme.scss]
-      dark: [cosmo, theme-dark.scss]
+      dark: darkly
     code-copy: true
     code-overflow: wrap
     toc: true
+    

@@ -2,22 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/StatePol/Database/index.html</loc>
-    <lastmod>2023-09-20T20:25:36.040Z</lastmod>
+    <lastmod>2023-09-29T13:10:30.933Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/StatePol/Database/test.html</loc>
-    <lastmod>2023-09-20T19:28:33.261Z</lastmod>
+    <loc>https://github.com/StatePol/Database/structure.html</loc>
+    <lastmod>2023-09-29T13:10:30.573Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/StatePol/Database/applications.html</loc>
-    <lastmod>2023-09-20T20:11:10.792Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatePol/Database/authors.html</loc>
-    <lastmod>2023-09-20T20:25:39.240Z</lastmod>
+    <loc>https://github.com/StatePol/Database/datadict.html</loc>
+    <lastmod>2023-09-29T13:10:45.160Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/sources.html</loc>
-    <lastmod>2023-09-20T20:25:36.357Z</lastmod>
+    <lastmod>2023-09-29T13:09:56.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/citation.html</loc>
+    <lastmod>2023-09-29T13:10:27.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/download.html</loc>
+    <lastmod>2023-09-29T13:10:27.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/applications.html</loc>
+    <lastmod>2023-09-29T13:10:28.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/limitations.html</loc>
+    <lastmod>2023-09-29T13:10:29.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/authors.html</loc>
+    <lastmod>2023-09-29T13:10:29.500Z</lastmod>
   </url>
 </urlset>

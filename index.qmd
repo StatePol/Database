@@ -1,20 +1,33 @@
 ---
-title: "Welcome to StatePol"
-subtitle: "The most comprehensive database on state politicians in Germany!"
+title: "StatePol"
+subtitle: "The most comprehensive Database for German State Politicians"
 ---
 
-## What is StatePol?
+With StatePol, we present a publicly accessible database on members of the German state parliaments and governments that provides info on askriptive characteristics of politicians and their day-to-day activities in state parliaments and governments between 1990 and 2020.
 
-![](images/datensatz_struktur.png){fig-align="center"}
+::: columns
+::: {.column width="60%"}
 
-## How to contact us?
-We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project [GitHub repository](https://github.com/StatePol/Database/issues/new).
+![](_images/landesparlamente.jpeg){fig-align="center"}
+:::
 
-One of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors.
+::: {.column width="40%"}
 
-## Licence
+## Whats in the Database?
 
-When referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly ([PVS](https://www.springer.com/journal/11615)) as following:
+-   State parliments
+    -   111 terms in the 16 state parliaments from 1990 - 2022
+    -   6977 individual mps
+        -   21.517.423 daily observations
 
+-   State governments
+    -   148 cabinets
+    -   920 individual cabinet members
+        -   2,223,995 daily observations
+        
+## Access the Database
+To access the data please refer to the instruction on the [Download](download.qmd) page.
+:::
+:::
 
 

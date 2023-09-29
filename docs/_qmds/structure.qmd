@@ -1,0 +1,39 @@
+---
+fig-cap-location: top
+---
+
+```{r import, echo=FALSE, message=FALSE, warning=FALSE}
+library(rio)
+library(tidyverse)
+
+
+politician <- import("_data/politicians.csv")
+mandate <- import("_data/mandate.csv")
+ppg <- import("_data/faction.csv")
+ppg_leadership <- import("_data/board.csv")
+presidency <- import("_data/presidium.csv")
+committee <- import("_data/committee.csv")
+cabinet <- import("_data/cabinet.csv")
+```
+
+# The Database
+
+The core of the database is the ***Politicians*** dataset, including all politicians who held a mandate in a German state parliament or government role between 1990 and 2022. This list includes individual names, a unique ID based on their Wikipedia URLs, and non-varying information like gender, birthdate, and birthplace. Beyond this core dataset, other sets like ***Mandate***, ***PPG***, ***PPG-Leadership***, ***Presidency***, and ***Committee*** provide details about mandates and roles in the state parliaments. Data on state government roles can be found in the ***Cabinet*** dataset.
+
+Following the logic of a relational database, all mentioned information can be combined as desired using the ID variable. By connecting the datasets, users can supplement members' personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.
+
+## The Datasets
+
+| Dataset   | Description                                               | Variables             | Observations            |
+|:----------|:----------------------------------------------------------|:---------------------:|:-----------------------:|
+| Politician   | Information on the all individual parliamentarians     | `r length(politician)`|     `r nrow(politician)`|
+| Mandate      | Information on the mandates by mps                     | `r length(mandate)`   |     `r nrow(mandate)`   |
+| PPG   | Lists the members of the parties / parliamentary factions | `r length(ppg)`   |     `r nrow(ppg)`   |
+| PPG-Leadership     | Lists the members of the faction boards                   | `r length(ppg_leadership)`     |     `r nrow(ppg_leadership)`     |
+| Presidency | Lists the members of the presidiums                       | `r length(presidency)` |     `r nrow(presidency)` |
+| Committee | Lists the members of the committees                       | `r length(committee)` |     `r nrow(committee)` |
+| Cabinet   | Lists the members of the cabinets                         | `r length(cabinet)`   |     `r nrow(cabinet)`   |
+
+## The Structure
+
+![](images/datensatz_struktur.png){fig-align="center"}

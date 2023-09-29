@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>StatePol Database - Welcome to StatePol</title>
+<title>StatePol Database - StatePol</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +61,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="StatePol Database - StatePol">
+<meta name="twitter:description" content="The most comprehensive Database for German State Politicians">
+<meta name="twitter:image" content="https://github.com/StatePol/Database/_images/landesparlamente.jpeg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -85,16 +89,20 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./structure.html" rel="" target="">
+ <span class="menu-text">Database</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./applications.html" rel="" target="">
  <span class="menu-text">Applications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sources.html" rel="" target="">
- <span class="menu-text">Sources</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./authors.html" rel="" target="">
  <span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./citation.html" rel="" target="">
+ <span class="menu-text">Citation</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -123,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./_images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://link.springer.com/book/10.1007/978-3-658-29222-5" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book"></i></a>
@@ -149,23 +157,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-statepol" id="toc-what-is-statepol" class="nav-link active" data-scroll-target="#what-is-statepol">What is StatePol?</a></li>
-  <li><a href="#how-to-contact-us" id="toc-how-to-contact-us" class="nav-link" data-scroll-target="#how-to-contact-us">How to contact us?</a></li>
-  <li><a href="#licence" id="toc-licence" class="nav-link" data-scroll-target="#licence">Licence</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StatePol/Database/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StatePol/Database/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to StatePol</h1>
-<p class="subtitle lead">The most comprehensive database on state politicians in Germany!</p>
+<h1 class="title">StatePol</h1>
+<p class="subtitle lead">The most comprehensive Database for German State Politicians</p>
 </div>
 
 
@@ -180,25 +180,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="what-is-statepol" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-statepol">What is StatePol?</h2>
+<p>With StatePol, we present a publicly accessible database on members of the German state parliaments and governments that provides info on askriptive characteristics of politicians and their day-to-day activities in state parliaments and governments between 1990 and 2020.</p>
+<div class="columns">
+<div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/datensatz_struktur.png" class="img-fluid figure-img"></p>
+<p><img src="_images/landesparlamente.jpeg" class="img-fluid figure-img"></p>
 </figure>
 </div>
+</div><div class="column" style="width:40%;">
+<section id="whats-in-the-database" class="level2">
+<h2 class="anchored" data-anchor-id="whats-in-the-database">Whats in the Database?</h2>
+<ul>
+<li>State parliments
+<ul>
+<li>111 terms in the 16 state parliaments from 1990 - 2022</li>
+<li>6977 individual mps
+<ul>
+<li>21.517.423 daily observations</li>
+</ul></li>
+</ul></li>
+<li>State governments
+<ul>
+<li>148 cabinets</li>
+<li>920 individual cabinet members
+<ul>
+<li>2,223,995 daily observations</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section id="how-to-contact-us" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-contact-us">How to contact us?</h2>
-<p>We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project <a href="https://github.com/StatePol/Database/issues/new">GitHub repository</a>.</p>
-<p>One of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors.</p>
+<section id="access-the-database" class="level2">
+<h2 class="anchored" data-anchor-id="access-the-database">Access the Database</h2>
+<p>To access the data please refer to the instruction on the <a href="./download.html">Download</a> page.</p>
 </section>
-<section id="licence" class="level2">
-<h2 class="anchored" data-anchor-id="licence">Licence</h2>
-<p>When referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly (<a href="https://www.springer.com/journal/11615">PVS</a>) as following:</p>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -555,7 +574,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© StatePol 2023</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StatePol/Database/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StatePol/Database/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

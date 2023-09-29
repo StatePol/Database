@@ -1,3 +1,203 @@
 ---
 title: "Sources"
+tbl-colwidths: [10,90]
 ---
+
+## Career Data
+
+::: {layout-ncol=1}
+| Period | Sources |
+|:-:|---|
+| 1 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(1._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stolpe_I> <br> Handbuch des Landtages Brandenburg 1. Wahlperiode 1990 – 1994|
+| 2 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(2._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stolpe_II> <br> Handbuch des Landtages Brandenburg: Namen - Daten - Fakten (Stand: Dez. 94)|
+| 3 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(3._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stolpe_III> <br> Landtag Brandenburg: Namen – Daten – Fakten, 3. Wahlperiode 1999–2004 |
+| 4 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(4._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Platzeck_II> <br> <https://www.landtag.brandenburg.de/media_fast/6/Handbuch-web.pdf> |
+| 5 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(5._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Platzeck_III> <br> <https://www.landtag.brandenburg.de/media_fast/6/Landtag%20HB_web.pdf> |
+| 6 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(6._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Woidke_II> <br> <https://www.landtag.brandenburg.de/media_fast/6/Handbuch%20Landtag_2018_dritte_Auflage_final.pdf> |
+
+: **Brandenburg** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Diepgen_III> <br> Handbuch der 12. Wahlperiode 4. Nachlieferung Stand 15.12.1994 |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Diepgen_IV> <br> Handbuch der 13. Wahlperiode 1995 - 1999 Juni 1998 ISBN: 3-922581-21-8 |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Diepgen_V> <br> Handbuch der 14. Wahlperiode 1999 - 2004 ISBN 3-922581-24-2 |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Wowereit_II> <br> Abgeordnetenhaus Berlin 15. Wahlperiode Taschenbuch, 3. Auflage Stand 29.April.2005 ISBN 3-87576-543-5 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Wowereit_III> <br> Abgeordnetenhaus Berlin 16. Wahlperiode Taschenbuch, 3. Auflage Stand 15.10.2010 ISBN 978-3-87576-653-0 |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Wowereit_IV> <br> Abgeordnetenhaus Berlin 17. Wahlperiode Taschenbuch, 3. Auflage 08.05.2015 ISBN 978-3-87576-759-9 |
+| 18 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(18._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_M%C3%BCller_II> <br> Abgeordnetenhaus Berlin 18. Wahlperiode Taschenbuch, 3. Auflage 31.08.2018 ISBN 978-3-95879-093-3 |
+
+: **Berlin** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 10 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(10._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Sp%C3%A4th_IV> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 11 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(11._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Teufel_II> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Teufel_III> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Teufel_IV> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Oettinger_II> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Kretschmann_I> <br>  Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Kretschmann_II> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+
+: **Baden-Württemberg** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(12._Wahlperiode)><br> <https://de.wikipedia.org/wiki/Kabinett_Streibl_II> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten|
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stoiber_II> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stoiber_III> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Stoiber_IV> <br>Von der Parlamentsdokumentation bereitgestellte Gremienlisten  |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Seehofer_I> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(17._Wahlperiode)> <br><https://de.wikipedia.org/wiki/Kabinett_Seehofer_II> <br>  Von der Parlamentsdokumentation bereitgestellte Gremienlisten|
+
+: **Bayern** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(13._Wahlperiode)>  <br> <https://de.wikipedia.org/wiki/Senat_Wedemeier_III> <br> Handbuch der Bremischen Bürgerschaft Personalien 13. Wahlperiode. 5. Lfg. |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Scherf_I> <br> Handbuch der Bremischen Bürgerschaft Personalien 14. Wahlperiode. 3. Lfg. |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Scherf_II> <br> Handbuch der Bremischen Bürgerschaft Personalien 15. Wahlperiode. 3. Lfg.  |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Scherf_III> <br> Handbuch der Bremischen Bürgerschaft Personalien 15. Wahlperiode. 3. Ex. |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_II> <br> Handbuch der Bremischen Bürgerschaft Personalien 17. Wahlperiode. Stand: 1. März 2011 |
+| 18 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(18._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_III> <br> Handbuch der Bremischen Bürgerschaft Personalien 18. Wahlperiode. Stand: 15. Februar 2012 |
+| 19 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(19._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Sieling> <br> Handbuch der Bremischen Bürgerschaft der 19. Wahlperiode. 2015 bis 2019. 1. Auflage |
+
+: **Bremen** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Wallmann> <br> Handbuch des hessischen Landtags 12. Wahlperiode. Stand 1987. |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Eichel_I> <br> Handbuch des hessischen Landtags 13. Wahlperiode. Stand 1992.  |
+| 14 |<https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Eichel_II> <br> Handbuch des Hessischen Landtags 14. Wahlperiode Stand 17.Juni.1998 |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Koch_I> <br> Handbuch des Hessischen Landtags 15. Wahlperiode Stand Juli 1999 ISBN 3-87576-424-2 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Koch_II> <br> Handbuch des Hessischen Landtags 16. Wahlperiode Stand Juli 2003 ISBN 3-87576-505-2 |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Koch_III> <br> Handbuch des Hessischen Landtags 17. Wahlperiode Band 1 Abgeordnete, Gremien und Organisation Stand November 2008 ISBN 978-3-87576-600-4 |
+| 18 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(18._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Bouffier_I> <br> Handbuch des Hessischen Landtags 18. Wahlperiode Band 1 Abgeordnete, Gremien und Organisation Stand August 2009 ISBN 978-3-87576-625-7 |
+| 19 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(19._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Bouffier_II> <br>Handbuch des Hessischen Landtags 19. Wahlperiode Band 1 Abgeordnete Gremien und Organisation Stand Juli 2014 ISBN 978-3-86541-615-5|
+
+: **Hessen** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Voscherau_II> <br> Handbuch der Hamburgischen Bürgerschaft 14. Wahlperiode Stand Mai 1993 |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Voscherau_III> <br> Handbuch der Hamburgischen Bürgerschaft 15. Wahlperiode Stand Oktober 1995 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Runde> <br> Handbuch der Hamburgischen Bürgerschaft 16. Wahlperiode Stand Oktober 2000 |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_von_Beust_I> <br> Handbuch der Hamburgischen Bürgerschaft 17. Wahlperiode Stand März 2003 |
+| 18 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(18._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_von_Beust_II> <br> Handbuch der Hamburgischen Bürgerschaft 18. Wahlperiode Stand Juli 2005 |
+| 19 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(19._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_von_Beust_III> <br> <https://de.wikipedia.org/wiki/Senat_Ahlhaus> <br>Handbuch der Hamburgischen Bürgerschaft 19. Wahlperiode Stand Juli 2008 |
+| 20 |<https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(20._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Scholz_I> <br> Handbuch der Hamburgischen Bürgerschaft 20. Wahlperiode Stand März 2011  |
+| 21 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(21._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Senat_Scholz_II> <br> <https://de.wikipedia.org/wiki/Senat_Tschentscher_I> <br> Handbuch der Hamburgischen Bürgerschaft 21. Wahlperiode Stand März 2015 |
+
+: **Hamburg** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 1 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(1._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Gomolka> <br> Landtag Mecklenburg-Vorpommern: 1. Wahlperiode (Volkshandbuch - Stand: Januar 1991) |
+| 2 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(2._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Seite_II> <br> Das Handbuch des Landtags Mecklenburg-Vorpommern 2. Wahlperiode; 2. Auflage (Stand 26.06.1997) |
+| 3 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(3._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Ringstorff_I> <br> Das Handbuch des Landtags Mecklenburg-Vorpommern 3. Wahlperiode (Stand 31.01.1999) |
+| 4 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(4._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Ringstorff_II> <br> Handbuch Der Landtag von Mecklenburg-Vorpommern 4. Wahlperiode 1. Auflage Stand: Januar 2003 |
+| 5 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(5._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Ringstorff_III> <br> <https://de.wikipedia.org/wiki/Kabinett_Sellering_I> <br> Landtag Mecklenburg-Vorpommern: 5. Wahlperiode (Volkshandbuch - Stand: April 2011) |
+| 6 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(6._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Sellering_II> <br> Landtag Mecklenburg-Vorpommern: 6. Wahlperiode (Volkshandbuch - Stand: April 2014) |
+| 7 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(7._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Sellering_III> <br> <https://de.wikipedia.org/wiki/Kabinett_Schwesig_I> <br> Handbuch: Der Landtag Mecklenburg-Vorpommern 7. Wahlperiode (3. Auflage, Januar 2018) |
+
+: **Mecklenburg-Vorpommern** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_I_(Niedersachsen)> <br> Niedersächsischer Landtag Drucksache 12/90: Ausschussliste der 12 Wahlperiode |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_II_(Niedersachsen)> <br> Niedersächsischer Landtag Drucksache 13/1180: Ausschussliste der 13. Wahlperiode |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_III_(Niedersachsen)> <br> <https://de.wikipedia.org/wiki/Kabinett_Glogowski> <br> <https://de.wikipedia.org/wiki/Kabinett_Gabriel> <br> Niedersächsischer Landtag 14. WP; Drucksache 14/690. Ausschussliste, Stand Mai.1999 |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Wulff_I> <br> Niedersächsischer Landtag 15. Wahlperiode. Ausschussliste, Stand 16.01.2008 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Wulff_II> <br> <https://de.wikipedia.org/wiki/Kabinett_McAllister> <br> Niedersächsischer Landtag 16. Wahlperiode. Ausschussliste, Stand 14.01.2013 |
+| 17 |<https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Weil_I> <br> Niedersächsischer Landtag 16. Wahlperiode. Ausschussliste, Stand 24.10.2017 |
+
+: **Niedersachsen** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 11 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(11._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 11. Wahlperiode <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 11 Wahlperiode |
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(12._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 12. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 12 Wahlperiode |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(13._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 13. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 13 Wahlperiode |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(14._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 14. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 14 Wahlperiode |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(15._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 15. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 15 Wahlperiode |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(16._Wahlperiode)> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 16. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 16 Wahlperiode |
+
+: **Nordrhein-Westfalen** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 |<https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Scharping> <br> <https://de.wikipedia.org/wiki/Kabinett_Beck_I> <br> Landtag Rheinland-Pfalz 12. Wahlperiode 1991-1996. 2. Auflage Stand: 1. August 1992|
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Beck_II> <br> Handbuch Landtag Rheinland-Pfalz 13. Wahlperiode 1996-2001. 1. Auflage Stand Februar 1997 |
+| 14 |<https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Beck_III> <br> Landtag Rheinland-Pfalz. Das Handbuch 14. Wahlperiode 2001-2006 Stand Dezember 2001  |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Beck_IV> <br> Landtag Rheinland-Pfalz. Das Handbuch 15. Wahlperiode 2006-2011 Stand 18.Mai.2007 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Beck_V> <br> <https://de.wikipedia.org/wiki/Kabinett_Dreyer_I> <br> Wissenschaftlicher Dienst des Landtags 03.03.2015 WD-Info 16/60: Gliederung des Landtags |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Dreyer_II> <br> Unterrichtung Landtagspräsident 03.06.2016 Drucksache 17/65 (8 S.): Gliederung des Landtags |
+
+: **Rheinland-Pfalz** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Engholm_I> <br> Handbuch des Schleswig-Holsteinischen Landtages. 12 Wahlperiode. Stand 1.Oktober.1991 |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Engholm_II> <br> <https://de.wikipedia.org/wiki/Kabinett_Simonis_I> <br> Schleswig-Holsteinischer Landtag 13. Wahlperiode. Zweite überarbeitete Auflage. Volkshandbuch. Stand September 1993 ISBN: 3-87576-314-9 |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Simonis_II> <br> Schleswig-Holsteinischer Landtag 14. Wahlperiode, 4. Auflage. Volkshandbuch. Stand Dezember 1998 ISBN: 3-87576-417-x |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Simonis_III> <br> Der Landtag Schleswig-Holstein Handbuch 15. Wahlperiode ISBN 3-88312-355-2 |
+| 16 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(16._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Carstensen_I> <br> Handbuch zum Landtag Schleswig-Holstein Kurzausgabe 16. Wahlperiode. Stand Juni 2005 ISBN 3-88312-358-7 |
+| 17 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(17._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Carstensen_II> <br> Landtag Schleswig-Holstein Handbuch Kurzfassung 17. Wahlperiode. Stand Mai 2011 |
+| 18 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(18._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Albig> <br> Handbuch 18. Landtag Schleswig-Holstein. Stand Februar 2016 |
+
+: **Schleswig-Holstein** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 10 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Lafontaine_II> <br> Landtag des Saarlands Wahlperiode 10 Drucksache 10 / 157 |
+| 11 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Lafontaine_III> <br> <https://de.wikipedia.org/wiki/Kabinett_Klimmt> <br> Landtag des Saarlands Wahlperiode 11 Drucksache 11/1905 |
+| 12 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(12._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_I_(Saarland)> <br> Landtag des Saarlands Wahlperiode 12 Drucksache 12/1119 |
+| 13 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(13._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_II_(Saarland)> <br> Landtag des Saarlands Wahlperiode 13 Drucksache 13/2195 |
+| 14 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(14._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_III_(Saarland)> <br> <https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_I> <br> Landtag des Saarlands Wahlperiode 14 Drucksache 14/679 |
+| 15 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(15._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_II> <br> Landtag des Saarlands Wahlperiode 15 Drucksache 15/1831 |
+
+: **Saarland** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 1 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(1._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_I> <br> Sächsischer Landtag 1. Wahlperiode 1990-1994. 3. Auflage Stand: 1. Februar 1993 |
+| 2 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(2._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_II> <br> Sächsischer Landtag 2. Wahlperiode 1994-1999. 4. Auflage Stand: 2. Dezember 1998 |
+| 3 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(3._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_III> <br> <https://de.wikipedia.org/wiki/Kabinett_Milbradt_I> <br> Sächsischer Landtag 3. Wahlperiode 1999-2004. 2. Auflage Stand: 15. Dezember 2001 |
+| 4 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(4._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Milbradt_II> <br> <https://de.wikipedia.org/wiki/Kabinett_Tillich_I> <br> Sächsischer Landtag 4. Wahlperiode 2004-2009. 3. Auflage Stand: 14.07.2008 |
+| 5 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(5._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Tillich_II> |
+| 6 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(6._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Tillich_III> <br> <https://de.wikipedia.org/wiki/Kabinett_Kretschmer_I> <br> Sächsischer Landtag 6. Wahlperiode 2014-2019. 2. Auflage Stand: Juni 2017|
+
+: **Sachsen** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 1 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(1._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 2 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(2._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 3 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(3._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 4 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(4._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 5 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(5._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 6 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(6._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+| 7 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(7._Wahlperiode)> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv |
+
+: **Sachsen-Anhalt** {.hover}
+
+| Period | Sources |
+|:-:|---|
+| 1 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(1._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Ducha%C4%8D> <br> <https://de.wikipedia.org/wiki/Kabinett_Vogel_I_(Th%C3%BCringen)> <br> Thüringer Landtag Handbuch. 1. Auflage Stand September 1991 ISBN 3-7400-0811-3 |
+| 2 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(2._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Vogel_II_(Th%C3%BCringen)> <br> Thüringer Landtag Handbuch. 2. Auflage Stand: März 1995 |
+| 3 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(3._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Vogel_III_(Th%C3%BCringen)> <br> <https://de.wikipedia.org/wiki/Kabinett_Althaus_I> <br> Thüringer Landtag Handbuch 3. Wahlperiode. 1. Auflage Stand Januar 2000; ISBN: 3- 86180-091-8 |
+| 4 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(4._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Althaus_II> <br> Thüringer Landtag Handbuch 4. Wahlperiode Teil II. 2. Auflage Stand Januar 2007 |
+| 5 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(5._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Lieberknecht> <br> Thüringer Landtag Handbuch 5. Wahlperiode 2009-2014. 1. Auflage Stand Februar 2010 |
+| 6 | <https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(6._Wahlperiode)> <br> <https://de.wikipedia.org/wiki/Kabinett_Ramelow_I> <br> Thüringer Landtag Handbuch 6. Wahlperiode 2014-2019. 4. Auflage Stand 2018 |
+
+: **Thüringen** {.hover}
+:::
+
+## Individual Data
+All data regarding the personal backgrounds of the Members of Parliament (MP) was consistently sourced. The information was systematically extracted from the Wikipedia entries dedicated to each MP. Consequently, for every individual in the dataset, the primary reference is their respective Wikipedia article.
+
+The respective Wikipedia page can be accessed via the name_ID variable. The URL structure follows the following pattern:
+
+https://de.wikipedia.org/ + variable name_ID 
+
+

@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./limitations.html" rel="next">
+<link href="./datadict.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -39,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +63,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta name="twitter:title" content="StatePol Database - Sources">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -85,16 +90,20 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./structure.html" rel="" target="">
+ <span class="menu-text">Database</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./applications.html" rel="" target="">
  <span class="menu-text">Applications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sources.html" rel="" target="">
- <span class="menu-text">Sources</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./authors.html" rel="" target="">
  <span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./citation.html" rel="" target="">
+ <span class="menu-text">Citation</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -123,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./_images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://link.springer.com/book/10.1007/978-3-658-29222-5" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book"></i></a>
@@ -139,8 +148,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./structure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Database</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datadict.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Dictionary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./sources.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Sources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./limitations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Limitations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./download.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Download</span></a>
   </div>
 </li>
     </ul>
@@ -149,7 +182,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#career-data" id="toc-career-data" class="nav-link active" data-scroll-target="#career-data">Career Data</a></li>
+  <li><a href="#individual-data" id="toc-individual-data" class="nav-link" data-scroll-target="#individual-data">Individual Data</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StatePol/Database/edit/main/sources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StatePol/Database/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -171,8 +211,747 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="career-data" class="level2">
+<h2 class="anchored" data-anchor-id="career-data">Career Data</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Brandenburg</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(1._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(1._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stolpe_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stolpe_I</a> <br> Handbuch des Landtages Brandenburg 1. Wahlperiode 1990 – 1994</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(2._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(2._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stolpe_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stolpe_II</a> <br> Handbuch des Landtages Brandenburg: Namen - Daten - Fakten (Stand: Dez. 94)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(3._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(3._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stolpe_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stolpe_III</a> <br> Landtag Brandenburg: Namen – Daten – Fakten, 3. Wahlperiode 1999–2004</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(4._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(4._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Platzeck_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Platzeck_II</a> <br> <a href="https://www.landtag.brandenburg.de/media_fast/6/Handbuch-web.pdf" class="uri">https://www.landtag.brandenburg.de/media_fast/6/Handbuch-web.pdf</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(5._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(5._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Platzeck_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Platzeck_III</a> <br> <a href="https://www.landtag.brandenburg.de/media_fast/6/Landtag%20HB_web.pdf" class="uri">https://www.landtag.brandenburg.de/media_fast/6/Landtag%20HB_web.pdf</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(6._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_Brandenburg_(6._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Woidke_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Woidke_II</a> <br> <a href="https://www.landtag.brandenburg.de/media_fast/6/Handbuch%20Landtag_2018_dritte_Auflage_final.pdf" class="uri">https://www.landtag.brandenburg.de/media_fast/6/Handbuch%20Landtag_2018_dritte_Auflage_final.pdf</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Berlin</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Diepgen_III" class="uri">https://de.wikipedia.org/wiki/Senat_Diepgen_III</a> <br> Handbuch der 12. Wahlperiode 4. Nachlieferung Stand 15.12.1994</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Diepgen_IV" class="uri">https://de.wikipedia.org/wiki/Senat_Diepgen_IV</a> <br> Handbuch der 13. Wahlperiode 1995 - 1999 Juni 1998 ISBN: 3-922581-21-8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Diepgen_V" class="uri">https://de.wikipedia.org/wiki/Senat_Diepgen_V</a> <br> Handbuch der 14. Wahlperiode 1999 - 2004 ISBN 3-922581-24-2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Wowereit_II" class="uri">https://de.wikipedia.org/wiki/Senat_Wowereit_II</a> <br> Abgeordnetenhaus Berlin 15. Wahlperiode Taschenbuch, 3. Auflage Stand 29.April.2005 ISBN 3-87576-543-5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Wowereit_III" class="uri">https://de.wikipedia.org/wiki/Senat_Wowereit_III</a> <br> Abgeordnetenhaus Berlin 16. Wahlperiode Taschenbuch, 3. Auflage Stand 15.10.2010 ISBN 978-3-87576-653-0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Wowereit_IV" class="uri">https://de.wikipedia.org/wiki/Senat_Wowereit_IV</a> <br> Abgeordnetenhaus Berlin 17. Wahlperiode Taschenbuch, 3. Auflage 08.05.2015 ISBN 978-3-87576-759-9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(18._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Abgeordnetenhauses_von_Berlin_(18._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_M%C3%BCller_II" class="uri">https://de.wikipedia.org/wiki/Senat_M%C3%BCller_II</a> <br> Abgeordnetenhaus Berlin 18. Wahlperiode Taschenbuch, 3. Auflage 31.08.2018 ISBN 978-3-95879-093-3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Baden-Württemberg</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(10._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(10._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Sp%C3%A4th_IV" class="uri">https://de.wikipedia.org/wiki/Kabinett_Sp%C3%A4th_IV</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(11._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(11._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Teufel_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Teufel_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Teufel_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Teufel_III</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Teufel_IV" class="uri">https://de.wikipedia.org/wiki/Kabinett_Teufel_IV</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Oettinger_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Oettinger_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Kretschmann_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Kretschmann_I</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtags_von_Baden-W%C3%BCrttemberg_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Kretschmann_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Kretschmann_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Bayern</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(12._Wahlperiode)</a><br> <a href="https://de.wikipedia.org/wiki/Kabinett_Streibl_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Streibl_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stoiber_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stoiber_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stoiber_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stoiber_III</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Stoiber_IV" class="uri">https://de.wikipedia.org/wiki/Kabinett_Stoiber_IV</a> <br>Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Seehofer_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Seehofer_I</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Bayerischen_Landtags_(17._Wahlperiode)</a> <br><a href="https://de.wikipedia.org/wiki/Kabinett_Seehofer_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Seehofer_II</a> <br> Von der Parlamentsdokumentation bereitgestellte Gremienlisten</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Bremen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Wedemeier_III" class="uri">https://de.wikipedia.org/wiki/Senat_Wedemeier_III</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 13. Wahlperiode. 5. Lfg.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Scherf_I" class="uri">https://de.wikipedia.org/wiki/Senat_Scherf_I</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 14. Wahlperiode. 3. Lfg.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Scherf_II" class="uri">https://de.wikipedia.org/wiki/Senat_Scherf_II</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 15. Wahlperiode. 3. Lfg.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Scherf_III" class="uri">https://de.wikipedia.org/wiki/Senat_Scherf_III</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 15. Wahlperiode. 3. Ex.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_II" class="uri">https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_II</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 17. Wahlperiode. Stand: 1. März 2011</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">18</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(18._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(18._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_III" class="uri">https://de.wikipedia.org/wiki/Senat_B%C3%B6hrnsen_III</a> <br> Handbuch der Bremischen Bürgerschaft Personalien 18. Wahlperiode. Stand: 15. Februar 2012</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">19</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(19._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Bremischen_B%C3%BCrgerschaft_(19._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Sieling" class="uri">https://de.wikipedia.org/wiki/Senat_Sieling</a> <br> Handbuch der Bremischen Bürgerschaft der 19. Wahlperiode. 2015 bis 2019. 1. Auflage</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Hessen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Wallmann" class="uri">https://de.wikipedia.org/wiki/Kabinett_Wallmann</a> <br> Handbuch des hessischen Landtags 12. Wahlperiode. Stand 1987.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Eichel_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Eichel_I</a> <br> Handbuch des hessischen Landtags 13. Wahlperiode. Stand 1992.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Eichel_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Eichel_II</a> <br> Handbuch des Hessischen Landtags 14. Wahlperiode Stand 17.Juni.1998</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Koch_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Koch_I</a> <br> Handbuch des Hessischen Landtags 15. Wahlperiode Stand Juli 1999 ISBN 3-87576-424-2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Koch_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Koch_II</a> <br> Handbuch des Hessischen Landtags 16. Wahlperiode Stand Juli 2003 ISBN 3-87576-505-2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Koch_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Koch_III</a> <br> Handbuch des Hessischen Landtags 17. Wahlperiode Band 1 Abgeordnete, Gremien und Organisation Stand November 2008 ISBN 978-3-87576-600-4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(18._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(18._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Bouffier_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Bouffier_I</a> <br> Handbuch des Hessischen Landtags 18. Wahlperiode Band 1 Abgeordnete, Gremien und Organisation Stand August 2009 ISBN 978-3-87576-625-7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">19</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(19._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Hessischen_Landtags_(19._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Bouffier_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Bouffier_II</a> <br>Handbuch des Hessischen Landtags 19. Wahlperiode Band 1 Abgeordnete Gremien und Organisation Stand Juli 2014 ISBN 978-3-86541-615-5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Hamburg</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Voscherau_II" class="uri">https://de.wikipedia.org/wiki/Senat_Voscherau_II</a> <br> Handbuch der Hamburgischen Bürgerschaft 14. Wahlperiode Stand Mai 1993</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Voscherau_III" class="uri">https://de.wikipedia.org/wiki/Senat_Voscherau_III</a> <br> Handbuch der Hamburgischen Bürgerschaft 15. Wahlperiode Stand Oktober 1995</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Runde" class="uri">https://de.wikipedia.org/wiki/Senat_Runde</a> <br> Handbuch der Hamburgischen Bürgerschaft 16. Wahlperiode Stand Oktober 2000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_von_Beust_I" class="uri">https://de.wikipedia.org/wiki/Senat_von_Beust_I</a> <br> Handbuch der Hamburgischen Bürgerschaft 17. Wahlperiode Stand März 2003</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(18._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(18._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_von_Beust_II" class="uri">https://de.wikipedia.org/wiki/Senat_von_Beust_II</a> <br> Handbuch der Hamburgischen Bürgerschaft 18. Wahlperiode Stand Juli 2005</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">19</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(19._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(19._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_von_Beust_III" class="uri">https://de.wikipedia.org/wiki/Senat_von_Beust_III</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Ahlhaus" class="uri">https://de.wikipedia.org/wiki/Senat_Ahlhaus</a> <br>Handbuch der Hamburgischen Bürgerschaft 19. Wahlperiode Stand Juli 2008</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">20</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(20._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(20._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Scholz_I" class="uri">https://de.wikipedia.org/wiki/Senat_Scholz_I</a> <br> Handbuch der Hamburgischen Bürgerschaft 20. Wahlperiode Stand März 2011</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">21</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(21._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_der_Hamburgischen_B%C3%BCrgerschaft_(21._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Scholz_II" class="uri">https://de.wikipedia.org/wiki/Senat_Scholz_II</a> <br> <a href="https://de.wikipedia.org/wiki/Senat_Tschentscher_I" class="uri">https://de.wikipedia.org/wiki/Senat_Tschentscher_I</a> <br> Handbuch der Hamburgischen Bürgerschaft 21. Wahlperiode Stand März 2015</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Mecklenburg-Vorpommern</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(1._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(1._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Gomolka" class="uri">https://de.wikipedia.org/wiki/Kabinett_Gomolka</a> <br> Landtag Mecklenburg-Vorpommern: 1. Wahlperiode (Volkshandbuch - Stand: Januar 1991)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(2._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(2._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Seite_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Seite_II</a> <br> Das Handbuch des Landtags Mecklenburg-Vorpommern 2. Wahlperiode; 2. Auflage (Stand 26.06.1997)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(3._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(3._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Ringstorff_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Ringstorff_I</a> <br> Das Handbuch des Landtags Mecklenburg-Vorpommern 3. Wahlperiode (Stand 31.01.1999)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(4._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(4._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Ringstorff_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Ringstorff_II</a> <br> Handbuch Der Landtag von Mecklenburg-Vorpommern 4. Wahlperiode 1. Auflage Stand: Januar 2003</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(5._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(5._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Ringstorff_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Ringstorff_III</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Sellering_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Sellering_I</a> <br> Landtag Mecklenburg-Vorpommern: 5. Wahlperiode (Volkshandbuch - Stand: April 2011)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(6._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(6._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Sellering_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Sellering_II</a> <br> Landtag Mecklenburg-Vorpommern: 6. Wahlperiode (Volkshandbuch - Stand: April 2014)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(7._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Mecklenburg-Vorpommern_(7._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Sellering_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Sellering_III</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Schwesig_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Schwesig_I</a> <br> Handbuch: Der Landtag Mecklenburg-Vorpommern 7. Wahlperiode (3. Auflage, Januar 2018)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Niedersachsen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_I_(Niedersachsen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_I_(Niedersachsen)</a> <br> Niedersächsischer Landtag Drucksache 12/90: Ausschussliste der 12 Wahlperiode</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_II_(Niedersachsen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_II_(Niedersachsen)</a> <br> Niedersächsischer Landtag Drucksache 13/1180: Ausschussliste der 13. Wahlperiode</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_III_(Niedersachsen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Schr%C3%B6der_III_(Niedersachsen)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Glogowski" class="uri">https://de.wikipedia.org/wiki/Kabinett_Glogowski</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Gabriel" class="uri">https://de.wikipedia.org/wiki/Kabinett_Gabriel</a> <br> Niedersächsischer Landtag 14. WP; Drucksache 14/690. Ausschussliste, Stand Mai.1999</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Wulff_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Wulff_I</a> <br> Niedersächsischer Landtag 15. Wahlperiode. Ausschussliste, Stand 16.01.2008</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Wulff_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Wulff_II</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_McAllister" class="uri">https://de.wikipedia.org/wiki/Kabinett_McAllister</a> <br> Niedersächsischer Landtag 16. Wahlperiode. Ausschussliste, Stand 14.01.2013</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Nieders%C3%A4chsischen_Landtages_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Weil_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Weil_I</a> <br> Niedersächsischer Landtag 16. Wahlperiode. Ausschussliste, Stand 24.10.2017</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Nordrhein-Westfalen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(11._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(11._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 11. Wahlperiode <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 11 Wahlperiode</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(12._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 12. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 12 Wahlperiode</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(13._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 13. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 13 Wahlperiode</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(14._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 14. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 14 Wahlperiode</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(15._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 15. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 15 Wahlperiode</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Nordrhein-Westfalen_(16._Wahlperiode)</a> <br> Verzeichnis über die Besetzung der Ausschüsse und Gremien in der 16. Wahlperiode. <br> Alphabetisches Verzeichnis der Abgeordneten des Landtags in der 16 Wahlperiode</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Rheinland-Pfalz</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Scharping" class="uri">https://de.wikipedia.org/wiki/Kabinett_Scharping</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Beck_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Beck_I</a> <br> Landtag Rheinland-Pfalz 12. Wahlperiode 1991-1996. 2. Auflage Stand: 1. August 1992</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Beck_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Beck_II</a> <br> Handbuch Landtag Rheinland-Pfalz 13. Wahlperiode 1996-2001. 1. Auflage Stand Februar 1997</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Beck_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Beck_III</a> <br> Landtag Rheinland-Pfalz. Das Handbuch 14. Wahlperiode 2001-2006 Stand Dezember 2001</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Beck_IV" class="uri">https://de.wikipedia.org/wiki/Kabinett_Beck_IV</a> <br> Landtag Rheinland-Pfalz. Das Handbuch 15. Wahlperiode 2006-2011 Stand 18.Mai.2007</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Beck_V" class="uri">https://de.wikipedia.org/wiki/Kabinett_Beck_V</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Dreyer_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Dreyer_I</a> <br> Wissenschaftlicher Dienst des Landtags 03.03.2015 WD-Info 16/60: Gliederung des Landtags</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Rheinland-Pfalz_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Dreyer_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Dreyer_II</a> <br> Unterrichtung Landtagspräsident 03.06.2016 Drucksache 17/65 (8 S.): Gliederung des Landtags</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Schleswig-Holstein</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Engholm_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Engholm_I</a> <br> Handbuch des Schleswig-Holsteinischen Landtages. 12 Wahlperiode. Stand 1.Oktober.1991</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Engholm_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Engholm_II</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Simonis_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Simonis_I</a> <br> Schleswig-Holsteinischer Landtag 13. Wahlperiode. Zweite überarbeitete Auflage. Volkshandbuch. Stand September 1993 ISBN: 3-87576-314-9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Simonis_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Simonis_II</a> <br> Schleswig-Holsteinischer Landtag 14. Wahlperiode, 4. Auflage. Volkshandbuch. Stand Dezember 1998 ISBN: 3-87576-417-x</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Simonis_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Simonis_III</a> <br> Der Landtag Schleswig-Holstein Handbuch 15. Wahlperiode ISBN 3-88312-355-2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">16</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(16._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(16._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Carstensen_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Carstensen_I</a> <br> Handbuch zum Landtag Schleswig-Holstein Kurzausgabe 16. Wahlperiode. Stand Juni 2005 ISBN 3-88312-358-7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(17._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(17._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Carstensen_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Carstensen_II</a> <br> Landtag Schleswig-Holstein Handbuch Kurzfassung 17. Wahlperiode. Stand Mai 2011</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">18</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(18._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_Schleswig-Holstein_(18._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Albig" class="uri">https://de.wikipedia.org/wiki/Kabinett_Albig</a> <br> Handbuch 18. Landtag Schleswig-Holstein. Stand Februar 2016</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Saarland</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Lafontaine_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Lafontaine_II</a> <br> Landtag des Saarlands Wahlperiode 10 Drucksache 10 / 157</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(11._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Lafontaine_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Lafontaine_III</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Klimmt" class="uri">https://de.wikipedia.org/wiki/Kabinett_Klimmt</a> <br> Landtag des Saarlands Wahlperiode 11 Drucksache 11/1905</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(12._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(12._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_I_(Saarland)" class="uri">https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_I_(Saarland)</a> <br> Landtag des Saarlands Wahlperiode 12 Drucksache 12/1119</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(13._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(13._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_II_(Saarland)" class="uri">https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_II_(Saarland)</a> <br> Landtag des Saarlands Wahlperiode 13 Drucksache 13/2195</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(14._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(14._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_III_(Saarland)" class="uri">https://de.wikipedia.org/wiki/Kabinett_M%C3%BCller_III_(Saarland)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_I</a> <br> Landtag des Saarlands Wahlperiode 14 Drucksache 14/679</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(15._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_des_Saarlandes_(15._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Kramp-Karrenbauer_II</a> <br> Landtag des Saarlands Wahlperiode 15 Drucksache 15/1831</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Sachsen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(1._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(1._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_I</a> <br> Sächsischer Landtag 1. Wahlperiode 1990-1994. 3. Auflage Stand: 1. Februar 1993</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(2._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(2._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_II</a> <br> Sächsischer Landtag 2. Wahlperiode 1994-1999. 4. Auflage Stand: 2. Dezember 1998</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(3._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(3._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Biedenkopf_III</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Milbradt_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Milbradt_I</a> <br> Sächsischer Landtag 3. Wahlperiode 1999-2004. 2. Auflage Stand: 15. Dezember 2001</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(4._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(4._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Milbradt_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Milbradt_II</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Tillich_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Tillich_I</a> <br> Sächsischer Landtag 4. Wahlperiode 2004-2009. 3. Auflage Stand: 14.07.2008</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(5._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(5._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Tillich_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Tillich_II</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(6._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_S%C3%A4chsischen_Landtags_(6._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Tillich_III" class="uri">https://de.wikipedia.org/wiki/Kabinett_Tillich_III</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Kretschmer_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Kretschmer_I</a> <br> Sächsischer Landtag 6. Wahlperiode 2014-2019. 2. Auflage Stand: Juni 2017</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Sachsen-Anhalt</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(1._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(1._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(2._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(2._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(3._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(3._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(4._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(4._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(5._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(5._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(6._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(6._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(7._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Landtages_von_Sachsen-Anhalt_(7._Wahlperiode)</a> <br> Datenerhebung des Referat 13 – Infrastruktur des Landtagsarchiv</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table-hover table">
+<caption><strong>Thüringen</strong></caption>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Period</th>
+<th style="text-align: left;">Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(1._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(1._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Ducha%C4%8D" class="uri">https://de.wikipedia.org/wiki/Kabinett_Ducha%C4%8D</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Vogel_I_(Th%C3%BCringen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Vogel_I_(Th%C3%BCringen)</a> <br> Thüringer Landtag Handbuch. 1. Auflage Stand September 1991 ISBN 3-7400-0811-3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(2._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(2._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Vogel_II_(Th%C3%BCringen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Vogel_II_(Th%C3%BCringen)</a> <br> Thüringer Landtag Handbuch. 2. Auflage Stand: März 1995</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(3._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(3._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Vogel_III_(Th%C3%BCringen)" class="uri">https://de.wikipedia.org/wiki/Kabinett_Vogel_III_(Th%C3%BCringen)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Althaus_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Althaus_I</a> <br> Thüringer Landtag Handbuch 3. Wahlperiode. 1. Auflage Stand Januar 2000; ISBN: 3- 86180-091-8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(4._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(4._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Althaus_II" class="uri">https://de.wikipedia.org/wiki/Kabinett_Althaus_II</a> <br> Thüringer Landtag Handbuch 4. Wahlperiode Teil II. 2. Auflage Stand Januar 2007</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(5._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(5._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Lieberknecht" class="uri">https://de.wikipedia.org/wiki/Kabinett_Lieberknecht</a> <br> Thüringer Landtag Handbuch 5. Wahlperiode 2009-2014. 1. Auflage Stand Februar 2010</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(6._Wahlperiode)" class="uri">https://de.wikipedia.org/wiki/Liste_der_Mitglieder_des_Th%C3%BCringer_Landtags_(6._Wahlperiode)</a> <br> <a href="https://de.wikipedia.org/wiki/Kabinett_Ramelow_I" class="uri">https://de.wikipedia.org/wiki/Kabinett_Ramelow_I</a> <br> Thüringer Landtag Handbuch 6. Wahlperiode 2014-2019. 4. Auflage Stand 2018</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="individual-data" class="level2">
+<h2 class="anchored" data-anchor-id="individual-data">Individual Data</h2>
+<p>All data regarding the personal backgrounds of the Members of Parliament (MP) was consistently sourced. The information was systematically extracted from the Wikipedia entries dedicated to each MP. Consequently, for every individual in the dataset, the primary reference is their respective Wikipedia article.</p>
+<p>The respective Wikipedia page can be accessed via the name_ID variable. The URL structure follows the following pattern:</p>
+<p>https://de.wikipedia.org/ + variable name_ID</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -523,13 +1302,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./datadict.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data Dictionary</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./limitations.html" class="pagination-link">
+        <span class="nav-page-text">Limitations</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">© StatePol 2023</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/StatePol/Database/edit/main/sources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/StatePol/Database/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
