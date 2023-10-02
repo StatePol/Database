@@ -8,7 +8,7 @@ With StatePol, we present a publicly accessible database on members of the Germa
 ::: columns
 ::: {.column width="60%"}
 
-![](images/landesparlamente.jpeg){fig-align="center"}
+![](images/landesparlamente.png){fig-align="center"}
 :::
 
 ::: {.column width="40%"}
