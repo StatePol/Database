@@ -2,11 +2,53 @@
 title: "Download"
 ---
 
-## R
-
-## Python
-
-## Excel
-
 ## CSV
+To download the database in csv format please use this link:
+
+* [StatePol-CSV](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/StatePol/Database/tree/main/_data)
+
+## R
+To download the data in R, you can use the `read.csv` function from the base R library.
+
+### Politician
+```{r}
+politician <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/politicians.csv")
+```
+
+### Mandate
+```{r}
+mandate <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/mandate.csv")
+```
+
+### PPG
+```{r}
+ppg <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/faction.csv")
+```
+
+### PPG-Leadership
+```{r}
+pggleadership <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/board.csv")
+```
+
+### Presidency
+```{r}
+presidency <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/presidium.csv")
+```
+
+### Committee
+```{r}
+committee <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/committee.csv")
+```
+
+### Cabinet
+```{r}
+cabinet <- 
+  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/cabinet.csv")
+```
 

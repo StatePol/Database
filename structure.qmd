@@ -36,4 +36,4 @@ Following the logic of a relational database, all mentioned information can be c
 
 ## The Structure
 
-![](_images/datensatz_struktur.png){fig-align="center"}
+![](images/datensatz_struktur.png){fig-align="center"}

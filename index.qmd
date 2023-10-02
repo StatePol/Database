@@ -8,22 +8,22 @@ With StatePol, we present a publicly accessible database on members of the Germa
 ::: columns
 ::: {.column width="60%"}
 
-![](_images/landesparlamente.jpeg){fig-align="center"}
+![](images/landesparlamente.jpeg){fig-align="center"}
 :::
 
 ::: {.column width="40%"}
 
 ## Whats in the Database?
 
--   State parliments
-    -   111 terms in the 16 state parliaments from 1990 - 2022
+-   111 terms in the 16 state parliaments
     -   6977 individual mps
-        -   21.517.423 daily observations
-
--   State governments
-    -   148 cabinets
+    -   21.517.423 daily observations
+    
+    
+    
+-   148 state cabinets
     -   920 individual cabinet members
-        -   2,223,995 daily observations
+    -   2,223,995 daily observations
         
 ## Access the Database
 To access the data please refer to the instruction on the [Download](download.qmd) page.

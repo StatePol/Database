@@ -36,7 +36,7 @@ website:
 # side bar formatting
   sidebar:
   - id: Home
-    logo: "_images/hex_statepol.png"
+    logo: "images/hex_statepol.png"
     align: center
     tools: 
       - icon: book

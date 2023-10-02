@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./_images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/hex_statepol.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://link.springer.com/book/10.1007/978-3-658-29222-5" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book"></i></a>
@@ -222,91 +222,74 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">Name of politician</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace</td>
 <td style="text-align: left;">Birthplace of politician</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthplace.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for birthplace (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace.lat</td>
 <td style="text-align: left;">Latitude of birthplace as determined by geocoding</td>
-<td style="text-align: left;">ggmap (version 3.0.1)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthplace.lon</td>
 <td style="text-align: left;">Longitude of birthplace as determined by geocoding</td>
-<td style="text-align: left;">ggmap (version 3.0.1)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace.region</td>
 <td style="text-align: left;">Region birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthplace.subregion</td>
 <td style="text-align: left;">Subregion birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace.country</td>
 <td style="text-align: left;">Country birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthplace.country.code</td>
 <td style="text-align: left;">ISO 3166-1 alpha-2 code for country birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace.state</td>
 <td style="text-align: left;">State birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthplace.state.code</td>
 <td style="text-align: left;">ISO 3166-2 code for state birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">birthplace.city</td>
 <td style="text-align: left;">City birthplace is located in</td>
-<td style="text-align: left;">tidygeocoder &amp; ISO 3166-1 country list</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">birthdate</td>
 <td style="text-align: left;">Formatted birthdate of politician</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">gender</td>
 <td style="text-align: left;">Gender of politician</td>
-<td style="text-align: left;">https://genderize.io/</td>
 </tr>
 </tbody>
 </table>
@@ -316,66 +299,54 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">Name of politician</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">constituency</td>
 <td style="text-align: left;">Constituency the politician represents</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">mandate</td>
 <td style="text-align: left;">Method of winning seat (direct mandate or via party list)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">voteshare</td>
 <td style="text-align: left;">Percentage of votes received by politician</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">landtag.state</td>
 <td style="text-align: left;">State where politician was elected</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation for state where politician was elected</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period during which politician served</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">term.start</td>
 <td style="text-align: left;">Constituent meeting of the electoral period</td>
-<td style="text-align: left;">wikipedia + parliments websites &amp; documents</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">term.end</td>
 <td style="text-align: left;">Day before the constituent meeting of the next electoral period</td>
-<td style="text-align: left;">wikipedia + parliments websites &amp; documents</td>
 </tr>
 </tbody>
 </table>
@@ -385,176 +356,142 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable Name</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">Name of politician</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">party</td>
 <td style="text-align: left;">Party of the politician</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">gender</td>
 <td style="text-align: left;">Politicians gender</td>
-<td style="text-align: left;">https://genderize.io/</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">cabinet</td>
 <td style="text-align: left;">Name of the cabinet</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">ministry</td>
 <td style="text-align: left;">Government ministry</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">ministry.clean</td>
 <td style="text-align: left;">Cleaned and formatted goverment ministry</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">position</td>
 <td style="text-align: left;">Position held by the politician</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">position.clean</td>
 <td style="text-align: left;">Cleaned and formatted position held by the politician</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">economy</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles economic affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">environment</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles environmental affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">education</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles education affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">science</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles science affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">infrastructure</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles infrastructure affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">health</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles health affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">justice</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles justice affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">agriculture</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles agriculture affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">culture_leisure</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles culture and leisure affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">technology</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles technology affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">state_chancellery</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles state chancellery affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">regional</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles regional affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">family</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles family affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">migration</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles migration affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">genderequality</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles gender equality affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">social</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles social affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">international</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles international affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">interior</td>
 <td style="text-align: left;">Binary variable indicating if the ministry handles interior affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">start.date</td>
 <td style="text-align: left;">Start date of government role</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">end.date</td>
 <td style="text-align: left;">End date of government role</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation of the state</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 </tbody>
 </table>
@@ -564,56 +501,46 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">fraction</td>
 <td style="text-align: left;">Political party/faction of the politician</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">fraction.id</td>
 <td style="text-align: left;">Cleaned and formatted party/faction of the politician</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">start.date</td>
 <td style="text-align: left;">Date the politician started being part of the faction</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">end.date</td>
 <td style="text-align: left;">Date the politician ended being part of the faction</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation of the state</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 </tbody>
 </table>
@@ -623,66 +550,54 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">fraction</td>
 <td style="text-align: left;">Political party/faction of the politician</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">fraction.id</td>
 <td style="text-align: left;">Cleaned and formatted party/faction of the politician</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">position</td>
 <td style="text-align: left;">Position held by the politician.</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">position.id</td>
 <td style="text-align: left;">Identifier for each position in the data.</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">start.date</td>
 <td style="text-align: left;">Start date of board role</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">end.date</td>
 <td style="text-align: left;">End date of board role</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation of the state</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 </tbody>
 </table>
@@ -692,56 +607,46 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">position</td>
 <td style="text-align: left;">Position held by the person</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">position.id</td>
 <td style="text-align: left;">Cleaned and formatted position held by the politician</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">start.date</td>
 <td style="text-align: left;">Start date of the position</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">end.date</td>
 <td style="text-align: left;">End date of the position</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation of the state</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 </tbody>
 </table>
@@ -751,151 +656,122 @@ ul.task-list li input[type="checkbox"] {
 <table class="table">
 <colgroup>
 <col style="width: 25%">
-<col style="width: 50%">
-<col style="width: 25%">
+<col style="width: 75%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Variable Name</th>
 <th style="text-align: left;">Description</th>
-<th style="text-align: left;">Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">id</td>
 <td style="text-align: left;">URL + State + Term</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">name.wikitag</td>
 <td style="text-align: left;">Wikipedia tag for politician’s name (URL)</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">committee</td>
 <td style="text-align: left;">The name of the committee.</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">agriculture</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles agriculture affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">committee_of_inquiry</td>
 <td style="text-align: left;">Binary variable indicating if the committee is a committee of inquiry</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">culture_sports_leisure</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles culture, sports, and leisure affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">economy_finance</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles economy and finance affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">education_science</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles education and science affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">environment</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles environment affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">family_youth_children</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles family, youth, and children affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">genderequality</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles gender equality affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">health</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles health affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">infrastructure</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles infrastructure affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">interior</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles interior affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">international</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles international affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">justice</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles justice affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">migration</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles migration affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">regional</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles regional affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">social</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles social affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">technology</td>
 <td style="text-align: left;">Binary variable indicating if the committee handles technology affairs</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">main_committee</td>
 <td style="text-align: left;">Binary variable indicating if the committee is the main committee</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">position</td>
 <td style="text-align: left;">Position held by the politician.</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">position.id</td>
 <td style="text-align: left;">Identifier for each position in the data.</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">start.date</td>
 <td style="text-align: left;">Start date of the position.</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">end.date</td>
 <td style="text-align: left;">End date of the position.</td>
-<td style="text-align: left;"><a href="#sources">Sources</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">landtag.state.abb</td>
 <td style="text-align: left;">Abbreviation of the state</td>
-<td style="text-align: left;">self-created variable</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">electoralperiod</td>
 <td style="text-align: left;">Electoral period</td>
-<td style="text-align: left;">wikipedia</td>
 </tr>
 </tbody>
 </table>

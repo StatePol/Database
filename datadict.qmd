@@ -1,122 +1,122 @@
 ---
 title: "Variable Dictionary"
-tbl-colwidths: [25,50,25]
+tbl-colwidths: [25,75]
 ---
 The following tables provide a description of the variables included in the different datasets. The sources used in the collection of each variable are listed here in a separate column. For a more detailed and precise source documentation, see [Sources](sources.qmd).
   
 ## Politician
-| Variable | Description | Source |
-| :--- | :--- | :--- |
-| name | Name of politician | wikipedia |
-| name.wikitag | Wikipedia tag for politician's name (URL) | wikipedia |
-| birthplace | Birthplace of politician | wikipedia |
-| birthplace.wikitag | Wikipedia tag for birthplace (URL) | wikipedia |
-| birthplace.lat | Latitude of birthplace as determined by geocoding | ggmap (version 3.0.1) |
-| birthplace.lon | Longitude of birthplace as determined by geocoding | ggmap (version 3.0.1) |
-| birthplace.region | Region birthplace is located in | tidygeocoder  & ISO 3166-1 country list |
-| birthplace.subregion | Subregion birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthplace.country | Country birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthplace.country.code | ISO 3166-1 alpha-2 code for country birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthplace.state | State birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthplace.state.code | ISO 3166-2 code for state birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthplace.city | City birthplace is located in | tidygeocoder & ISO 3166-1 country list |
-| birthdate | Formatted birthdate of politician | self-created variable |
-| gender | Gender of politician | https://genderize.io/ |
+| Variable | Description |
+| :--- | :--- |
+| name | Name of politician |
+| name.wikitag | Wikipedia tag for politician's name (URL) |
+| birthplace | Birthplace of politician |
+| birthplace.wikitag | Wikipedia tag for birthplace (URL) |
+| birthplace.lat | Latitude of birthplace as determined by geocoding |
+| birthplace.lon | Longitude of birthplace as determined by geocoding |
+| birthplace.region | Region birthplace is located in |
+| birthplace.subregion | Subregion birthplace is located in |
+| birthplace.country | Country birthplace is located in |
+| birthplace.country.code | ISO 3166-1 alpha-2 code for country birthplace is located in |
+| birthplace.state | State birthplace is located in |
+| birthplace.state.code | ISO 3166-2 code for state birthplace is located in |
+| birthplace.city | City birthplace is located in |
+| birthdate | Formatted birthdate of politician |
+| gender | Gender of politician | 
 
 ## Mandate
-| Variable | Description | Source |
-| :--- | :--- | :--- |
-| name | Name of politician | wikipedia |
-| id | URL + State + Term | self-created variable |
-| constituency | Constituency the politician represents | wikipedia |
-| mandate | Method of winning seat (direct mandate or via party list) | wikipedia |
-| voteshare | Percentage of votes received by politician | wikipedia |
-| landtag.state | State where politician was elected | wikipedia |
-| landtag.state.abb | Abbreviation for state where politician was elected | self-created variable |
-| electoralperiod | Electoral period during which politician served | wikipedia |
-| term.start | Constituent meeting of the electoral period | wikipedia + parliments websites & documents |
-| term.end | Day before the constituent meeting of the next electoral period | wikipedia + parliments websites & documents |
+| Variable | Description |
+| :--- | :--- |
+| name | Name of politician |
+| id | URL + State + Term |
+| constituency | Constituency the politician represents |
+| mandate | Method of winning seat (direct mandate or via party list) |
+| voteshare | Percentage of votes received by politician |
+| landtag.state | State where politician was elected |
+| landtag.state.abb | Abbreviation for state where politician was elected |
+| electoralperiod | Electoral period during which politician served |
+| term.start | Constituent meeting of the electoral period |
+| term.end | Day before the constituent meeting of the next electoral period |
 
 ## Cabinet
-| Variable Name | Description | Source |
-|:-----|:------------|:-------|
-| name | Name of politician | wikipedia |
-| id | URL + State + Term | self-created variable |
-| name.wikitag | Wikipedia tag for politician's name (URL) | wikipedia |
-| party         | Party of the politician |[Sources](#sources)|
-| gender        | Politicians gender | https://genderize.io/ |
-| cabinet       | Name of the cabinet |[Sources](#sources)|
-| ministry      | Government ministry |[Sources](#sources)|
-| ministry.clean   | Cleaned and formatted goverment ministry | self-created variable | 
-| position      | Position held by the politician |[Sources](#sources)|
-| position.clean| Cleaned and formatted position held by the politician | self-created variable |
-| economy | Binary variable indicating if the ministry handles economic affairs | self-created variable |
-| environment | Binary variable indicating if the ministry handles environmental affairs | self-created variable |
-| education | Binary variable indicating if the ministry handles education affairs | self-created variable |
-| science | Binary variable indicating if the ministry handles science affairs | self-created variable |
-| infrastructure | Binary variable indicating if the ministry handles infrastructure affairs | self-created variable |
-| health | Binary variable indicating if the ministry handles health affairs | self-created variable |
-| justice | Binary variable indicating if the ministry handles justice affairs | self-created variable |
-| agriculture | Binary variable indicating if the ministry handles agriculture affairs | self-created variable |
-| culture_leisure | Binary variable indicating if the ministry handles culture and leisure affairs | self-created variable |
-| technology  | Binary variable indicating if the ministry handles technology affairs | self-created variable |
-| state_chancellery | Binary variable indicating if the ministry handles state chancellery affairs | self-created variable |
-| regional | Binary variable indicating if the ministry handles regional affairs | self-created variable |
-| family | Binary variable indicating if the ministry handles family affairs | self-created variable |
-| migration | Binary variable indicating if the ministry handles migration affairs | self-created variable |
-| genderequality | Binary variable indicating if the ministry handles gender equality affairs | self-created variable |
-| social | Binary variable indicating if the ministry handles social affairs | self-created variable |
-| international | Binary variable indicating if the ministry handles international affairs | self-created variable |
-| interior | Binary variable indicating if the ministry handles interior affairs | self-created variable |
-| start.date    | Start date of government role |[Sources](#sources)|
-| end.date      | End date of government role |[Sources](#sources)|
-| landtag.state.abb | Abbreviation of the state | self-created variable |
-| electoralperiod | Electoral period | wikipedia |
+| Variable Name | Description |
+|:-----|:------------|
+| name | Name of politician |
+| id | URL + State + Term |
+| name.wikitag | Wikipedia tag for politician's name (URL) |
+| party         | Party of the politician |
+| gender        | Politicians gender | 
+| cabinet       | Name of the cabinet |
+| ministry      | Government ministry |
+| ministry.clean   | Cleaned and formatted goverment ministry | 
+| position      | Position held by the politician |
+| position.clean| Cleaned and formatted position held by the politician |
+| economy | Binary variable indicating if the ministry handles economic affairs |
+| environment | Binary variable indicating if the ministry handles environmental affairs |
+| education | Binary variable indicating if the ministry handles education affairs |
+| science | Binary variable indicating if the ministry handles science affairs |
+| infrastructure | Binary variable indicating if the ministry handles infrastructure affairs |
+| health | Binary variable indicating if the ministry handles health affairs |
+| justice | Binary variable indicating if the ministry handles justice affairs |
+| agriculture | Binary variable indicating if the ministry handles agriculture affairs |
+| culture_leisure | Binary variable indicating if the ministry handles culture and leisure affairs |
+| technology  | Binary variable indicating if the ministry handles technology affairs |
+| state_chancellery | Binary variable indicating if the ministry handles state chancellery affairs |
+| regional | Binary variable indicating if the ministry handles regional affairs |
+| family | Binary variable indicating if the ministry handles family affairs |
+| migration | Binary variable indicating if the ministry handles migration affairs |
+| genderequality | Binary variable indicating if the ministry handles gender equality affairs |
+| social | Binary variable indicating if the ministry handles social affairs |
+| international | Binary variable indicating if the ministry handles international affairs |
+| interior | Binary variable indicating if the ministry handles interior affairs |
+| start.date    | Start date of government role |
+| end.date      | End date of government role |
+| landtag.state.abb | Abbreviation of the state |
+| electoralperiod | Electoral period |
 
 ## PPG
-| Variable| Description | Source |
-|:---     |:--------- |:---    |
-| id               | URL + State + Term | self-created variable |
-| name.wikitag     | Wikipedia tag for politician's name (URL) | wikipedia |
-| fraction         | Political party/faction of the politician |[Sources](#sources)|
+| Variable| Description |
+|:---     |:--------- |
+| id               | URL + State + Term |
+| name.wikitag     | Wikipedia tag for politician's name (URL) |
+| fraction         | Political party/faction of the politician |
 | fraction.id      | Cleaned and formatted party/faction of the politician |self-created variable|
-| start.date       | Date the politician started being part of the faction |[Sources](#sources)|
-| end.date         | Date the politician ended being part of the faction |[Sources](#sources)|
-| landtag.state.abb| Abbreviation of the state | self-created variable |
-| electoralperiod  | Electoral period | wikipedia |
+| start.date       | Date the politician started being part of the faction |
+| end.date         | Date the politician ended being part of the faction |
+| landtag.state.abb| Abbreviation of the state |
+| electoralperiod  | Electoral period |
 
 ## PPG-Leadership
-| Variable         | Description | Source |
-|:---              |:------------|:---|
-| id               | URL + State + Term | self-created variable |
-| name.wikitag     | Wikipedia tag for politician's name (URL) | wikipedia |
-| fraction         | Political party/faction of the politician |[Sources](#sources)|
+| Variable         | Description |
+|:---              |:------------|
+| id               | URL + State + Term |
+| name.wikitag     | Wikipedia tag for politician's name (URL) |
+| fraction         | Political party/faction of the politician |
 | fraction.id      | Cleaned and formatted party/faction of the politician |self-created variable|
-| position         | Position held by the politician. |[Sources](#sources)|
+| position         | Position held by the politician. |
 | position.id      | Identifier for each position in the data. |self-created variable|
-| start.date       | Start date of board role |[Sources](#sources)|
-| end.date         | End date of board role |[Sources](#sources)|
-| landtag.state.abb| Abbreviation of the state | self-created variable |
-| electoralperiod  | Electoral period | wikipedia |
+| start.date       | Start date of board role |
+| end.date         | End date of board role |
+| landtag.state.abb| Abbreviation of the state |
+| electoralperiod  | Electoral period |
 
 ## Presidency
-| Variable | Description | Source |
-| :-- | :--------- | :-- |
-| id | URL + State + Term | self-created variable |
-| name.wikitag | Wikipedia tag for politician's name (URL) | wikipedia |
-| position | Position held by the person | [Sources](#sources) |
-| position.id | Cleaned and formatted position held by the politician | self-created variable |
-| start.date | Start date of the position | [Sources](#sources) |
-| end.date | End date of the position | [Sources](#sources) |
-| landtag.state.abb | Abbreviation of the state | self-created variable |
-| electoralperiod | Electoral period | wikipedia |
+| Variable | Description |
+| :-- | :--------- |
+| id | URL + State + Term |
+| name.wikitag | Wikipedia tag for politician's name (URL) |
+| position | Position held by the person |
+| position.id | Cleaned and formatted position held by the politician |
+| start.date | Start date of the position |
+| end.date | End date of the position |
+| landtag.state.abb | Abbreviation of the state |
+| electoralperiod | Electoral period |
               
 ## Committee
-| Variable Name  | Description      | Source |
-|:---------------|:-----------------|:-------|
-| id             | URL + State + Term | self-created variable |
-| name.wikitag | Wikipedia tag for politician's name (URL) | wikipedia |
-| committee      | The name of the committee. | [Sources](#sources) |
+| Variable Name  | Description      |
+|:---------------|:-----------------|
+| id             | URL + State + Term |
+| name.wikitag | Wikipedia tag for politician's name (URL) |
+| committee      | The name of the committee. |
 | agriculture             | Binary variable indicating if the committee handles agriculture affairs | self-created variable  |
 | committee_of_inquiry    | Binary variable indicating if the committee is a committee of inquiry | self-created variable  |
 | culture_sports_leisure  | Binary variable indicating if the committee handles culture, sports, and leisure affairs | self-created variable  |
@@ -135,9 +135,9 @@ The following tables provide a description of the variables included in the diff
 | social                  | Binary variable indicating if the committee handles social affairs | self-created variable  |
 | technology              | Binary variable indicating if the committee handles technology affairs | self-created variable  |
 | main_committee          | Binary variable indicating if the committee is the main committee | self-created variable  |
-| position       | Position held by the politician. |[Sources](#sources)|
-| position.id    | Identifier for each position in the data. |self-created variable|
-| start.date     | Start date of the position.|[Sources](#sources)|
-| end.date       | End date of the position. |[Sources](#sources)|
-| landtag.state.abb | Abbreviation of the state | self-created variable |
-| electoralperiod | Electoral period | wikipedia |
+| position       | Position held by the politician. |
+| position.id    | Identifier for each position in the data. |
+| start.date     | Start date of the position.|
+| end.date       | End date of the position. |
+| landtag.state.abb | Abbreviation of the state |
+| electoralperiod | Electoral period |
