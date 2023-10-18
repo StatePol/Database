@@ -187,5 +187,12 @@
     "title": "Download",
     "section": "R",
     "text": "R\nTo download the data in R, you can use the read.csv function from the base R library.\n\nPolitician\n\npolitician &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/politicians.csv\")\n\n\n\nMandate\n\nmandate &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/mandate.csv\")\n\n\n\nPPG\n\nppg &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/faction.csv\")\n\n\n\nPPG-Leadership\n\npggleadership &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/board.csv\")\n\n\n\nPresidency\n\npresidency &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/presidium.csv\")\n\n\n\nCommittee\n\ncommittee &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/committee.csv\")\n\n\n\nCabinet\n\ncabinet &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/cabinet.csv\")"
+  },
+  {
+    "objectID": "applications.html",
+    "href": "applications.html",
+    "title": "Applications",
+    "section": "",
+    "text": "X Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nY Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nCluster count"
   }
 ]
