@@ -61,8 +61,6 @@ website:
         text: Sources
       - href: limitations.qmd
         text: Limitations
-      - href: download.qmd
-        text: Download
         
   - id: Applications
     contents:

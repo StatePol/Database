@@ -18,7 +18,7 @@
     "href": "index.html#access-the-database",
     "title": "StatePol",
     "section": "Access the Database",
-    "text": "Access the Database\nTo access the data please refer to the instruction on the Download page."
+    "text": "Access the Database\nTo access the data please refer to the instruction on the insert download qmd here page."
   },
   {
     "objectID": "structure.html",
@@ -193,6 +193,6 @@
     "href": "applications.html",
     "title": "Applications",
     "section": "",
-    "text": "X Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nY Variable\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\n\n\n\n\n\n\nCluster count"
+    "text": "#| standalone: true\n#| viewerHeight: 600\nlibrary(shiny)\n\n# Define UI for app that draws a histogram ----\nui &lt;- page_sidebar(\n  sidebar = sidebar(open = \"open\",\n    numericInput(\"n\", \"Sample count\", 100),\n    checkboxInput(\"pause\", \"Pause\", FALSE),\n  ),\n  plotOutput(\"plot\", width=1100)\n)\n\nserver &lt;- function(input, output, session) {\n  data &lt;- reactive({\n    input$resample\n    if (!isTRUE(input$pause)) {\n      invalidateLater(1000)\n    }\n    rnorm(input$n)\n  })\n  \n  output$plot &lt;- renderPlot({\n    hist(data(),\n      breaks = 40,\n      xlim = c(-2, 2),\n      ylim = c(0, 1),\n      lty = \"blank\",\n      xlab = \"value\",\n      freq = FALSE,\n      main = \"\"\n    )\n    \n    x &lt;- seq(from = -2, to = 2, length.out = 500)\n    y &lt;- dnorm(x)\n    lines(x, y, lwd=1.5)\n    \n    lwd &lt;- 5\n    abline(v=0, col=\"red\", lwd=lwd, lty=2)\n    abline(v=mean(data()), col=\"blue\", lwd=lwd, lty=1)\n\n    legend(legend = c(\"Normal\", \"Mean\", \"Sample mean\"),\n      col = c(\"black\", \"red\", \"blue\"),\n      lty = c(1, 2, 1),\n      lwd = c(1, lwd, lwd),\n      x = 1,\n      y = 0.9\n    )\n  }, res=140)\n}\n\n# Create Shiny app ----\nshinyApp(ui = ui, server = server)"
   }
 ]

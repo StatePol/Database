@@ -1,44 +1,68 @@
 ---
 title: "Applications"
-format: 
+format:
   html:
-    page-layout: full
-    code-tools:
-      source: https://github.com/quarto-dev/quarto-web/blob/main/docs/interactive/shiny/_examples/k-means/shiny-k-means.qmd
-server: shiny
+    grid:
+      body-width: 1400px
+    ressources:
+      - shinylive-sw.js
+filters:
+  - shinylive
 ---
 
-```{r}
-#| panel: sidebar
-vars <- setdiff(names(iris), "Species")
-selectInput('xcol', 'X Variable', vars)
-selectInput('ycol', 'Y Variable', vars, selected = vars[[2]])
-numericInput('clusters', 'Cluster count', 3, min = 1, max = 9)
-```
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+library(shiny)
 
-```{r}
-#| panel: fill
-plotOutput('plot1')
-```
+# Define UI for app that draws a histogram ----
+ui <- page_sidebar(
+  sidebar = sidebar(open = "open",
+    numericInput("n", "Sample count", 100),
+    checkboxInput("pause", "Pause", FALSE),
+  ),
+  plotOutput("plot", width=1100)
+)
 
-```{r}
-#| context: server
-selectedData <- reactive({
-    iris[, c(input$xcol, input$ycol)]
+server <- function(input, output, session) {
+  data <- reactive({
+    input$resample
+    if (!isTRUE(input$pause)) {
+      invalidateLater(1000)
+    }
+    rnorm(input$n)
   })
+  
+  output$plot <- renderPlot({
+    hist(data(),
+      breaks = 40,
+      xlim = c(-2, 2),
+      ylim = c(0, 1),
+      lty = "blank",
+      xlab = "value",
+      freq = FALSE,
+      main = ""
+    )
+    
+    x <- seq(from = -2, to = 2, length.out = 500)
+    y <- dnorm(x)
+    lines(x, y, lwd=1.5)
+    
+    lwd <- 5
+    abline(v=0, col="red", lwd=lwd, lty=2)
+    abline(v=mean(data()), col="blue", lwd=lwd, lty=1)
 
-clusters <- reactive({
-  kmeans(selectedData(), input$clusters)
-})
+    legend(legend = c("Normal", "Mean", "Sample mean"),
+      col = c("black", "red", "blue"),
+      lty = c(1, 2, 1),
+      lwd = c(1, lwd, lwd),
+      x = 1,
+      y = 0.9
+    )
+  }, res=140)
+}
 
-output$plot1 <- renderPlot({
-  palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
-    "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
-
-  par(mar = c(5.1, 4.1, 0, 1))
-  plot(selectedData(),
-       col = clusters()$cluster,
-       pch = 20, cex = 3)
-  points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
-})
+# Create Shiny app ----
+shinyApp(ui = ui, server = server)
 ```
+

@@ -7,12 +7,9 @@ With StatePol, we present a publicly accessible database on members of the Germa
 
 ::: columns
 ::: {.column width="60%"}
-
 ![](images/landesparlamente.png){fig-align="center"}
 :::
-
 ::: {.column width="40%"}
-
 ## Whats in the Database?
 
 -   111 terms in the 16 state parliaments
@@ -26,7 +23,7 @@ With StatePol, we present a publicly accessible database on members of the Germa
     -   2,223,995 daily observations
         
 ## Access the Database
-To access the data please refer to the instruction on the [Download](download.qmd) page.
+To access the data please refer to the instruction on the *insert download qmd here* page.
 :::
 :::
 
