@@ -194,10 +194,11 @@ tbl-colwidths: [10,90]
 :::
 
 ## Individual Data
-All data regarding the personal backgrounds of the Members of Parliament (MP) was consistently sourced. The information was systematically extracted from the Wikipedia entries dedicated to each MP. Consequently, for every individual in the dataset, the primary reference is their respective Wikipedia article.
 
-The respective Wikipedia page can be accessed via the name_ID variable. The URL structure follows the following pattern:
+All data regarding the personal backgrounds of all state politicians was consistently sourced. The information was systematically extracted from their individual Wikipedia entries.
 
-https://de.wikipedia.org/ + variable name_ID 
+The respective Wikipedia page can be accessed via the *name.wikitag* variable. The URL structure follows the following pattern:
+
+https://de.wikipedia.org/ + *name.wikitag*
 
 

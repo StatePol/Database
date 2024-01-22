@@ -213,13 +213,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="missing-urls" class="level2">
 <h2 class="anchored" data-anchor-id="missing-urls">Missing URL’s</h2>
-<p>114 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used because of their consistency, even if the politician’s name changes or is written differently in a table.</p>
-<p>For the politicians without a corresponding article, Wikipedia automatically generates a warning href in the tables where the data was scraped. This error URL has a specific format, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= <em>Firstname as written in table_Surname as written in table</em> &amp;action=edit&amp;redlink=1”.</p>
+<p>114 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used due to their consistency over time.</p>
+<p>For the politicians without a corresponding article, Wikipedia automatically generates a warning default URL, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= <em>Firstname as written in table_Surname as written in table</em> &amp;action=edit&amp;redlink=1”.</p>
 <p>Using the data provided, the absence of a corresponding Wikipedia article is not a big issue since the <em>id’s</em> created with the error URL remain unique in all cases. However, in the event that a Wikipedia page is created for one of these politicians, the provided <em>id</em> would become outdated. Furthermore, the metadata such as birthplace and birthdate could not be obtained for these individuals but since this is only the case for 114 out of 7234 observations it does not really affect the quality of the data.</p>
 </section>
 <section id="report-an-issue" class="level2">
 <h2 class="anchored" data-anchor-id="report-an-issue">Report an Issue</h2>
-<p>If you found any flaws in the data or suspect something please do not hesitate to report an issue on the projects <a href="https://github.com/StatePol/Database/issues/new">GitHub repository</a>.</p>
+<p>If you find any flaws in the data or suspect something please do not hesitate to report an issue on the projects <a href="https://github.com/StatePol/Database/issues/new">GitHub repository</a>.</p>
 
 
 </section>
