@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/StatePol/Database/index.html</loc>
-    <lastmod>2023-11-22T11:19:56.658Z</lastmod>
+    <lastmod>2024-01-22T11:41:11.593Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/structure.html</loc>
-    <lastmod>2023-11-22T11:18:59.534Z</lastmod>
+    <lastmod>2024-01-22T11:27:06.856Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/datadict.html</loc>
-    <lastmod>2023-10-02T09:28:07.787Z</lastmod>
+    <lastmod>2024-01-22T11:41:52.343Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/sources.html</loc>
-    <lastmod>2023-10-02T09:28:21.210Z</lastmod>
+    <lastmod>2024-01-22T11:41:59.067Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/citation.html</loc>
@@ -22,18 +22,22 @@
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/download.html</loc>
-    <lastmod>2023-11-22T11:19:07.107Z</lastmod>
+    <lastmod>2024-01-22T11:27:13.960Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/applications.html</loc>
-    <lastmod>2023-11-22T11:20:15.966Z</lastmod>
+    <lastmod>2024-01-22T11:41:17.532Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/limitations.html</loc>
-    <lastmod>2023-11-22T11:19:01.938Z</lastmod>
+    <lastmod>2024-01-22T11:42:04.530Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatePol/Database/authors.html</loc>
-    <lastmod>2023-10-02T09:29:03.525Z</lastmod>
+    <lastmod>2024-01-22T11:26:11.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatePol/Database/r-shinylive-demo/R-shinylive-demo.html</loc>
+    <lastmod>2023-11-24T11:45:09.757Z</lastmod>
   </url>
 </urlset>
