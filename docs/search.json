@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "StatePol",
     "section": "",
-    "text": "With StatePol, we present a publicly accessible database on members of the German state parliaments and governments that provides info on askriptive characteristics of politicians and their day-to-day activities in state parliaments and governments between 1990 and 2020."
+    "text": "StatePol introduces a publicly available database on the members of German state parliaments and governments. This resource offers detailed information about the personal attributes of German state politicians, along with their roles and positions in both legislative and executive settings, spanning from 1990 to 2020."
   },
   {
     "objectID": "index.html#whats-in-the-database",
     "href": "index.html#whats-in-the-database",
     "title": "StatePol",
     "section": "Whats in the Database?",
-    "text": "Whats in the Database?\n\n111 terms in the 16 state parliaments\n\n6977 individual mps\n21.517.423 daily observations\n\n148 state cabinets\n\n920 individual cabinet members\n2,223,995 daily observations"
+    "text": "Whats in the Database?\n\n111 terms in the 16 state parliaments\n\n6977 individual legislators\n21.517.423 daily observations\n\n148 state cabinets\n\n920 individual cabinet members\n2.223.995 daily observations"
   },
   {
     "objectID": "index.html#access-the-database",
@@ -25,14 +25,14 @@
     "href": "structure.html",
     "title": "The Database",
     "section": "",
-    "text": "The core of the database is the Politicians dataset, including all politicians who held a mandate in a German state parliament or government role between 1990 and 2022. This list includes individual names, a unique ID based on their Wikipedia URLs, and non-varying information like gender, birthdate, and birthplace. Beyond this core dataset, other sets like Mandate, PPG, PPG-Leadership, Presidency, and Committee provide details about mandates and roles in the state parliaments. Data on state government roles can be found in the Cabinet dataset.\nFollowing the logic of a relational database, all mentioned information can be combined as desired using the ID variable. By connecting the datasets, users can supplement members’ personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.\n\n\n\n\n\n\n\n\n\n\n\nDataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n29\n2104"
+    "text": "The core element of the database is the Politicians dataset. It entails one observation for every individual politician who was a member of a German state parliament or cabinet between 1990 and 2022, including their name, a unique ID, and other non-varying information like gender, birthdate, and birthplace. Shedding light on these politicians’ legislative mandates, roles and functions in state parliaments, StatePol provides the datasets Mandate, PPG, PPG-Leadership, Presidency, and Committee. Data on executive offices held in state governments can be found in the Cabinet dataset.\nFollowing the logic of a relational database, all these datasets can be combined as desired by the individual politicians unique individual ID variable. By connecting the datasets, users can supplement members’ personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.\n\n\n\n\n\n\n\n\n\n\n\nDataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n44\n2104"
   },
   {
     "objectID": "structure.html#the-datasets",
     "href": "structure.html#the-datasets",
     "title": "The Database",
     "section": "",
-    "text": "Dataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n29\n2104"
+    "text": "Dataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n44\n2104"
   },
   {
     "objectID": "datadict.html",
@@ -116,7 +116,7 @@
     "href": "citation.html",
     "title": "Citation",
     "section": "",
-    "text": "When referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly (PVS) as following:"
+    "text": "Thank you for using StatePol! Please consider citing the paper introducing the database published in the German Political Science Quarterly (PVS):\nKoch, Elias, Daniel Kuhlen, Jochen Müller and Christian Stecker (2024). “StatePol - A Database on the Members of German State Cabinets and Parliaments”. German Political Science Quarterly (PVS), 65(1), XXX-XXX, DOI: 10.1007/s11615-024-00528-z"
   },
   {
     "objectID": "download.html#python",
@@ -165,14 +165,14 @@
     "href": "authors.html",
     "title": "Team",
     "section": "",
-    "text": "We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project GitHub repository.\nOne of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors."
+    "text": "Please do not hesitate to contact us! We deeply value feedback, questions, and insights from users of our database and those interested in it. Did you find something that looks wrong in the data? In that case, we would be very grateful if you could report an issue in our GitHub repository.\nOne of our team members will respond to your inquiry as soon as possible. We appreciate your interest and look forward to hearing from you."
   },
   {
     "objectID": "authors.html#how-to-contact-us",
     "href": "authors.html#how-to-contact-us",
     "title": "Team",
     "section": "",
-    "text": "We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project GitHub repository.\nOne of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors."
+    "text": "Please do not hesitate to contact us! We deeply value feedback, questions, and insights from users of our database and those interested in it. Did you find something that looks wrong in the data? In that case, we would be very grateful if you could report an issue in our GitHub repository.\nOne of our team members will respond to your inquiry as soon as possible. We appreciate your interest and look forward to hearing from you."
   },
   {
     "objectID": "download.html",

@@ -2,5 +2,7 @@
 title: "Citation"
 ---
 
-When referencing or utilizing any content from the Database, Users agree to cite the introduction paper published in the German Political Science Quarterly ([PVS](https://www.springer.com/journal/11615)) as following:
+Thank you for using StatePol! When using the data please cite the paper introducing the database published in the German Political Science Quarterly (PVS):
+
+Koch, Elias, Daniel Kuhlen, Jochen Müller and Christian Stecker (2024). "StatePol - A Database on the Members of German State Cabinets and Parliaments". *German Political Science Quarterly (PVS)*, 65(1), XXX-XXX, DOI: [10.1007/s11615-024-00528-z](https://doi.org/10.1007/s11615-024-00528-z)
 

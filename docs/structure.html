@@ -197,8 +197,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-database" class="level1">
 <h1>The Database</h1>
-<p>The core of the database is the <strong><em>Politicians</em></strong> dataset, including all politicians who held a mandate in a German state parliament or government role between 1990 and 2022. This list includes individual names, a unique ID based on their Wikipedia URLs, and non-varying information like gender, birthdate, and birthplace. Beyond this core dataset, other sets like <strong><em>Mandate</em></strong>, <strong><em>PPG</em></strong>, <strong><em>PPG-Leadership</em></strong>, <strong><em>Presidency</em></strong>, and <strong><em>Committee</em></strong> provide details about mandates and roles in the state parliaments. Data on state government roles can be found in the <strong><em>Cabinet</em></strong> dataset.</p>
-<p>Following the logic of a relational database, all mentioned information can be combined as desired using the ID variable. By connecting the datasets, users can supplement members’ personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.</p>
+<p>The core element of the database is the <strong><em>Politicians</em></strong> dataset. It entails one observation for every individual politician who was a member of a German state parliament or cabinet between 1990 and 2022, including their name, a unique ID, and other non-varying information like gender, birthdate, and birthplace. Shedding light on these politicians’ legislative mandates, roles and functions in state parliaments, StatePol provides the datasets <strong><em>Mandate</em></strong>, <strong><em>PPG</em></strong>, <strong><em>PPG-Leadership</em></strong>, <strong><em>Presidency</em></strong>, and <strong><em>Committee</em></strong>. Data on executive offices held in state governments can be found in the <strong><em>Cabinet</em></strong> dataset.</p>
+<p>Following the logic of a relational database, all these datasets can be combined as desired by the individual politicians unique individual ID variable. By connecting the datasets, users can supplement members’ personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.</p>
 <section id="the-datasets" class="level2">
 <h2 class="anchored" data-anchor-id="the-datasets">The Datasets</h2>
 <table class="table">
@@ -256,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: left;">Cabinet</td>
 <td style="text-align: left;">Lists the members of the cabinets</td>
-<td style="text-align: center;">29</td>
+<td style="text-align: center;">44</td>
 <td style="text-align: center;">2104</td>
 </tr>
 </tbody>

@@ -20,6 +20,6 @@ author:
 ---
 
 ## How to contact us?
-We deeply value the feedback, questions, and insights from our community and those interested in our database. To reach out to us, please report an issue on the project [GitHub repository](https://github.com/StatePol/Database/issues/new).
+Please do not hesitate to contact us! We deeply value feedback, questions, and insights from users of our database and those interested in it. Did you find something that looks wrong in the data? In that case, we would be very grateful if you could report an issue in our [GitHub repository](https://github.com/StatePol/Database/issues/new).
 
-One of our team members will respond to your query as soon as possible. We appreciate your interest and look forward to fostering a collaborative relationship with all users and contributors.
+One of our team members will respond to your inquiry as soon as possible. We appreciate your interest and look forward to hearing from you.

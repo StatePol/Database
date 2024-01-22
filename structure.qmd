@@ -18,9 +18,9 @@ cabinet <- import("_data/cabinet.csv")
 
 # The Database
 
-The core of the database is the ***Politicians*** dataset, including all politicians who held a mandate in a German state parliament or government role between 1990 and 2022. This list includes individual names, a unique ID based on their Wikipedia URLs, and non-varying information like gender, birthdate, and birthplace. Beyond this core dataset, other sets like ***Mandate***, ***PPG***, ***PPG-Leadership***, ***Presidency***, and ***Committee*** provide details about mandates and roles in the state parliaments. Data on state government roles can be found in the ***Cabinet*** dataset.
+The core element of the database is the ***Politicians*** dataset. It entails one observation for every  individual politician who was a member of a German state parliament or cabinet between 1990 and 2022, including their name, a unique ID, and other non-varying information like gender, birthdate, and birthplace. Shedding light on these politicians' legislative mandates, roles and functions in state parliaments, StatePol provides the datasets ***Mandate***, ***PPG***, ***PPG-Leadership***, ***Presidency***, and ***Committee***. Data on executive offices held in state governments can be found in the ***Cabinet*** dataset.
 
-Following the logic of a relational database, all mentioned information can be combined as desired using the ID variable. By connecting the datasets, users can supplement members' personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.
+Following the logic of a relational database, all these datasets can be combined as desired by the individual politicians unique individual ID variable. By connecting the datasets, users can supplement members' personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.
 
 ## The Datasets
 

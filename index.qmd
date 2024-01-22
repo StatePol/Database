@@ -1,9 +1,9 @@
 ---
 title: "StatePol"
-subtitle: "The most comprehensive Database for German State Politicians"
+subtitle: "The most comprehensive Database on German State Politicians"
 ---
 
-With StatePol, we present a publicly accessible database on members of the German state parliaments and governments that provides info on askriptive characteristics of politicians and their day-to-day activities in state parliaments and governments between 1990 and 2020.
+StatePol introduces a publicly available database on the members of German state parliaments and governments. This resource offers detailed information about the personal attributes of German state politicians, along with their roles and positions in both legislative and executive settings, spanning from 1990 to 2020.
 
 ::: columns
 ::: {.column width="60%"}
@@ -14,14 +14,13 @@ With StatePol, we present a publicly accessible database on members of the Germa
 ## Whats in the Database?
 
 -   111 terms in the 16 state parliaments
-    -   6977 individual mps
+    -   6977 individual legislators
     -   21.517.423 daily observations
-    
     
     
 -   148 state cabinets
     -   920 individual cabinet members
-    -   2,223,995 daily observations
+    -   2.223.995 daily observations
         
 ## Access the Database
 To access the data please refer to the instruction on the [download](download.qmd) page.
