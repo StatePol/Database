@@ -40,7 +40,7 @@ website:
     align: center
     tools: 
       - icon: book
-        href: https://link.springer.com/book/10.1007/978-3-658-29222-5
+        href: https://link.springer.com/article/10.1007/s11615-024-00528-z
       - icon: github
         href: https://github.com/StatePol/Database
     style: "docked"

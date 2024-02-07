@@ -116,7 +116,7 @@
     "href": "citation.html",
     "title": "Citation",
     "section": "",
-    "text": "Thank you for using StatePol! When using the data please cite the paper introducing the database published in the German Political Science Quarterly (PVS):\nKoch, Elias, Daniel Kuhlen, Jochen Müller and Christian Stecker (2024). “StatePol - A Database on the Members of German State Cabinets and Parliaments”. German Political Science Quarterly (PVS), 65(1), XXX-XXX, DOI: 10.1007/s11615-024-00528-z"
+    "text": "Thank you for using StatePol! When using the data please cite the research note introducing the database published in the German Political Science Quarterly (PVS):\nKoch, Elias, Daniel Kuhlen, Jochen Müller and Christian Stecker. StatePol - A Database on the Members of German State Cabinets and Parliaments. Polit Vierteljahresschr (2024). https://doi.org/10.1007/s11615-024-00528-z"
   },
   {
     "objectID": "download.html#python",
