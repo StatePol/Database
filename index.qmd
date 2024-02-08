@@ -11,7 +11,7 @@ StatePol introduces a publicly available database on the members of German state
 :::
 ::: {.column width="40%"}
 
-## Whats in the Database?
+## What's in the Database?
 
 -   111 terms in the 16 state parliaments
     -   6977 individual legislators
