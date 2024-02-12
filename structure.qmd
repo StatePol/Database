@@ -6,17 +6,49 @@ fig-cap-location: top
 library(rio)
 library(tidyverse)
 
+# read in the version number
+version_number <- readLines("VERSION")[1]
 
-politician <- import("_data/politicians.csv")
-mandate <- import("_data/mandate.csv")
-ppg <- import("_data/faction.csv")
-ppg_leadership <- import("_data/board.csv")
-presidency <- import("_data/presidium.csv")
-committee <- import("_data/committee.csv")
-cabinet <- import("_data/cabinet.csv")
+### dynamically construct the file paths
+
+# directory
+data_dir <- "_data/database"
+
+# politician
+politicians_file_path <- file.path(data_dir, paste0("politicians_", version_number, ".csv"))
+politician <- read.csv(politicians_file_path)
+
+# mandate
+mandate_file_path <- file.path(data_dir, paste0("mandate_", version_number, ".csv"))
+mandate <- read.csv(mandate_file_path)
+
+# ppg
+ppg_file_path <- file.path(data_dir, paste0("faction_", version_number, ".csv"))
+ppg <- read.csv(ppg_file_path)
+
+# ppg leadership
+ppg_leadership_file_path <- file.path(data_dir, paste0("board_", version_number, ".csv"))
+ppg_leadership <- read.csv(ppg_leadership_file_path)
+
+# presidency
+presidency_file_path <- file.path(data_dir, paste0("presidium_", version_number, ".csv"))
+presidency <- read.csv(presidency_file_path)
+
+# committee
+committee_file_path <- file.path(data_dir, paste0("committee_", version_number, ".csv"))
+committee <- read.csv(committee_file_path)
+
+# cabinet
+cabinet_file_path <- file.path(data_dir, paste0("cabinet_", version_number, ".csv"))
+cabinet <- read.csv(cabinet_file_path)
+
+# rm process files
+rm(cabinet_file_path, committee_file_path, data_dir,
+   mandate_file_path, politicians_file_path, ppg_file_path,
+   ppg_leadership_file_path)
 ```
 
-# The Database
+# The Database (Version: `r version_number`)
 
 The core element of the database is the ***Politicians*** dataset. It entails one observation for every  individual politician who was a member of a German state parliament or cabinet between 1990 and 2022, including their name, a unique ID, and other non-varying information like gender, birthdate, and birthplace. Shedding light on these politicians' legislative mandates, roles and functions in state parliaments, StatePol provides the datasets ***Mandate***, ***PPG***, ***PPG-Leadership***, ***Presidency***, and ***Committee***. Data on executive offices held in state governments can be found in the ***Cabinet*** dataset.
 

@@ -6,7 +6,17 @@ title: "Limitations"
 library(rio)
 library(tidyverse)
 
-politician <- import("_data/politicians.csv")
+# read in the version number
+version_number <- readLines("VERSION")[1]
+
+### dynamically construct the file paths
+
+# directory
+data_dir <- "_data/database"
+
+# politician
+politicians_file_path <- file.path(data_dir, paste0("politicians_", version_number, ".csv"))
+politician <- read.csv(politicians_file_path)
 ```
 
 ## Missing URL's
