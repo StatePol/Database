@@ -23,14 +23,14 @@
   {
     "objectID": "structure.html",
     "href": "structure.html",
-    "title": "The Database",
+    "title": "The Database (Version: 1.0.0)",
     "section": "",
     "text": "The core element of the database is the Politicians dataset. It entails one observation for every individual politician who was a member of a German state parliament or cabinet between 1990 and 2022, including their name, a unique ID, and other non-varying information like gender, birthdate, and birthplace. Shedding light on these politicians’ legislative mandates, roles and functions in state parliaments, StatePol provides the datasets Mandate, PPG, PPG-Leadership, Presidency, and Committee. Data on executive offices held in state governments can be found in the Cabinet dataset.\nFollowing the logic of a relational database, all these datasets can be combined as desired by the individual politicians unique individual ID variable. By connecting the datasets, users can supplement members’ personal data with their affiliations in factions, cabinets, state parliament presidencies, committees, and faction leadership. In the following table the datasets are listed and the figure displays the logic of the database-structure.\n\n\n\n\n\n\n\n\n\n\n\nDataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n44\n2104"
   },
   {
     "objectID": "structure.html#the-datasets",
     "href": "structure.html#the-datasets",
-    "title": "The Database",
+    "title": "The Database (Version: 1.0.0)",
     "section": "",
     "text": "Dataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n7234\n\n\nMandate\nInformation on the mandates by mps\n10\n15175\n\n\nPPG\nLists the members of the parties / parliamentary factions\n9\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n11\n2090\n\n\nPresidency\nLists the members of the presidiums\n9\n440\n\n\nCommittee\nLists the members of the committees\n29\n26637\n\n\nCabinet\nLists the members of the cabinets\n44\n2104"
   },
@@ -186,7 +186,7 @@
     "href": "download.html#r",
     "title": "Download",
     "section": "R",
-    "text": "R\nTo download the data in R, you can use the read.csv function from the base R library.\n\nPolitician\n\npolitician &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/politicians.csv\")\n\n\n\nMandate\n\nmandate &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/mandate.csv\")\n\n\n\nPPG\n\nppg &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/faction.csv\")\n\n\n\nPPG-Leadership\n\npggleadership &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/board.csv\")\n\n\n\nPresidency\n\npresidency &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/presidium.csv\")\n\n\n\nCommittee\n\ncommittee &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/committee.csv\")\n\n\n\nCabinet\n\ncabinet &lt;- \n  read.csv(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/cabinet.csv\")"
+    "text": "R\nTo download the data in R, you can use the read.csv function from the base R library.\n\nPolitician\n\n# fetch current version\ndatabase_version &lt;- readLines(url(\"https://raw.githubusercontent.com/StatePol/Database/main/VERSION\"))[1]\n\n# download file\npolitician &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/politicians_\", database_version, \".csv\"))\n\n\n\nMandate\n\nmandate &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/mandate_\", database_version, \".csv\"))\n\n\n\nPPG\n\nppg &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/faction_\", database_version, \".csv\"))\n\n\n\nPPG-Leadership\n\npggleadership &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/board_\", database_version, \".csv\"))\n\n\n\nPresidency\n\npresidency &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/presidium_\", database_version, \".csv\"))\n\n\n\nCommittee\n\ncommittee &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/committee_\", database_version, \".csv\"))\n\n\n\nCabinet\n\ncabinet &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/cabinet_\", database_version, \".csv\"))"
   },
   {
     "objectID": "applications.html",
@@ -201,5 +201,12 @@
     "title": "Our first r-shinylive Quarto document!",
     "section": "",
     "text": "#| standalone: true\n#| viewerHeight: 600\nlibrary(shiny)\nlibrary(bslib)\n\ntheme &lt;- bs_theme(font_scale = 1.5)\n\n# Define UI for app that draws a histogram ----\nui &lt;- page_sidebar(theme = theme,\n  sidebar = sidebar(open = \"open\",\n    numericInput(\"n\", \"Sample count\", 100),\n    checkboxInput(\"pause\", \"Pause\", FALSE),\n  ),\n  plotOutput(\"plot\", width=1100)\n)\n\nserver &lt;- function(input, output, session) {\n  data &lt;- reactive({\n    input$resample\n    if (!isTRUE(input$pause)) {\n      invalidateLater(1000)\n    }\n    rnorm(input$n)\n  })\n  \n  output$plot &lt;- renderPlot({\n    hist(data(),\n      breaks = 40,\n      xlim = c(-2, 2),\n      ylim = c(0, 1),\n      lty = \"blank\",\n      xlab = \"value\",\n      freq = FALSE,\n      main = \"\"\n    )\n    \n    x &lt;- seq(from = -2, to = 2, length.out = 500)\n    y &lt;- dnorm(x)\n    lines(x, y, lwd=1.5)\n    \n    lwd &lt;- 5\n    abline(v=0, col=\"red\", lwd=lwd, lty=2)\n    abline(v=mean(data()), col=\"blue\", lwd=lwd, lty=1)\n\n    legend(legend = c(\"Normal\", \"Mean\", \"Sample mean\"),\n      col = c(\"black\", \"red\", \"blue\"),\n      lty = c(1, 2, 1),\n      lwd = c(1, lwd, lwd),\n      x = 1,\n      y = 0.9\n    )\n  }, res=140)\n}\n\n# Create Shiny app ----\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "download.html#checking-the-database-version-and-changelog",
+    "href": "download.html#checking-the-database-version-and-changelog",
+    "title": "Download",
+    "section": "Checking the Database Version and Changelog",
+    "text": "Checking the Database Version and Changelog\nTo ensure you are using the correct version of the StatePol database, please check the VERSION file in our repository for the current version number.\nWe recommend reviewing the CHANGELOG to be aware of the changes, additions, or fixes in each version of the database."
   }
 ]

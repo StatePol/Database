@@ -2,7 +2,7 @@
 title: "Download"
 ---
 
-```{r version_name_control, echo=FALSE}
+```{r version_name_control, echo=FALSE, warning=FALSE, message=FALSE}
 # data directory
 data_dir <- "_data"
 
@@ -54,49 +54,52 @@ To download the database in csv format please use this link:
 To download the data in R, you can use the `read.csv` function from the base R library.
 
 ### Politician
-```{r}
+```{r, warning=FALSE, message=FALSE}
+# fetch current version
+database_version <- readLines(url("https://raw.githubusercontent.com/StatePol/Database/main/VERSION"))[1]
+
+# download file
 politician <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/politicians.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/politicians_", database_version, ".csv"))
 ```
 
 ### Mandate
-```{r}
+```{r, warning=FALSE, message=FALSE}
 mandate <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/mandate.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/mandate_", database_version, ".csv"))
 ```
 
 ### PPG
-```{r}
+```{r, warning=FALSE, message=FALSE}
 ppg <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/faction.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/faction_", database_version, ".csv"))
 ```
 
 ### PPG-Leadership
-```{r}
+```{r, warning=FALSE, message=FALSE}
 pggleadership <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/board.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/board_", database_version, ".csv"))
 ```
 
 ### Presidency
-```{r}
+```{r, warning=FALSE, message=FALSE}
 presidency <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/presidium.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/presidium_", database_version, ".csv"))
 ```
 
 ### Committee
-```{r}
+```{r, warning=FALSE, message=FALSE}
 committee <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/committee.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/committee_", database_version, ".csv"))
 ```
 
 ### Cabinet
-```{r}
+```{r, warning=FALSE, message=FALSE}
 cabinet <- 
-  read.csv("https://raw.githubusercontent.com/StatePol/Database/main/_data/cabinet.csv")
+  read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/cabinet_", database_version, ".csv"))
 ```
 
 ## Checking the Database Version and Changelog
-
 To ensure you are using the correct version of the StatePol database, please check the [VERSION](https://github.com/StatePol/Database/blob/main/VERSION) file in our repository for the current version number.
 
 We recommend reviewing the [CHANGELOG](https://github.com/StatePol/Database/blob/main/CHANGELOG.md) to be aware of the changes, additions, or fixes in each version of the database.
