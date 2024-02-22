@@ -54,49 +54,67 @@ To download the database in csv format please use this link:
 To download the data in R, you can use the `read.csv` function from the base R library.
 
 ### Politician
-```{r, warning=FALSE, message=FALSE}
+
+
+```{r, eval=FALSE}
 # fetch current version
 database_version <- readLines(url("https://raw.githubusercontent.com/StatePol/Database/main/VERSION"))[1]
 
-# download file
+# download data
 politician <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/politicians_", database_version, ".csv"))
-```
 
-### Mandate
-```{r, warning=FALSE, message=FALSE}
 mandate <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/mandate_", database_version, ".csv"))
-```
 
-### PPG
-```{r, warning=FALSE, message=FALSE}
 ppg <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/faction_", database_version, ".csv"))
-```
 
-### PPG-Leadership
-```{r, warning=FALSE, message=FALSE}
 pggleadership <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/board_", database_version, ".csv"))
-```
 
-### Presidency
-```{r, warning=FALSE, message=FALSE}
 presidency <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/presidium_", database_version, ".csv"))
-```
 
-### Committee
-```{r, warning=FALSE, message=FALSE}
 committee <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/committee_", database_version, ".csv"))
-```
 
-### Cabinet
-```{r, warning=FALSE, message=FALSE}
 cabinet <- 
   read.csv(paste0("https://raw.githubusercontent.com/StatePol/Database/main/_data/database", "/cabinet_", database_version, ".csv"))
+```
+
+## Python 
+
+To download the data in Python, you can use the code provided below.
+
+```{python, eval=FALSE}
+import requests
+import pandas as pd
+
+# fetch current version
+version_url = "https://raw.githubusercontent.com/StatePol/Database/main/VERSION"
+database_version = requests.get(version_url).text.strip()
+
+# construct base URL
+base_url = "https://raw.githubusercontent.com/StatePol/Database/main/_data/database"
+
+# download function
+def download_csv(file_name):
+    csv_url = f"{base_url}/{file_name}_{database_version}.csv"
+    df = pd.read_csv(csv_url)
+    return df
+
+# download data
+politician = download_csv("politicians")
+mandate = download_csv("mandate")
+ppg = download_csv("faction")
+pgg_leadership = download_csv("board")
+presidency = download_csv("presidium")
+committee = download_csv("committee")
+cabinet = download_csv("cabinet")
+
+# check data
+politician.head()
 ```
 
 ## Checking the Database Version and Changelog

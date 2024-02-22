@@ -26,7 +26,7 @@ website:
       - href: structure.qmd
         text: Database
       - href: applications.qmd
-        text: Applications
+        text: Interactive App
       - href: authors.qmd
         text: Team
       - href: citation.qmd
@@ -64,10 +64,10 @@ website:
       - href: download.qmd
         text: Download
         
-  - id: Applications
+  - id: app
     contents:
       - href: applications.qmd
-        text: Applications
+        text: Interactive App
         
   - id: Team
     contents:
@@ -82,8 +82,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, theme.scss]
+    theme: [cosmo, theme.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
