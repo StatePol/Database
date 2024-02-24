@@ -1,0 +1,91 @@
+project: 
+  type: website
+  output-dir: docs
+
+website:
+  twitter-card: true
+  page-navigation: true
+  title: "StatePol Database"
+  site-url: "https://github.com/StatePol/Database" 
+  repo-url: https://github.com/StatePol/Database 
+  repo-actions: [edit, issue]
+  search: 
+    location: navbar
+    type: overlay
+
+# page bottom formatting
+  page-footer:
+    left: "&copy; StatePol 2023"
+
+# navbar (top) formatting
+  navbar:
+    background: "#9DB4C0"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: structure.qmd
+        text: Database
+      - href: applications.qmd
+        text: Interactive App
+      - href: authors.qmd
+        text: Team
+      - href: citation.qmd
+        text: Citation
+      
+        
+# side bar formatting
+  sidebar:
+  - id: Home
+    logo: "/images/hex_statepol.png"
+    align: center
+    tools: 
+      - icon: book
+        href: https://link.springer.com/article/10.1007/s11615-024-00528-z
+      - icon: github
+        href: https://github.com/StatePol/Database
+    style: "docked"
+    search: true
+    collapse-level: 3
+    pinned: true
+    contents:
+      - href: index.qmd
+        text: Welcome
+  
+  - id: Database
+    contents:
+      - href: structure.qmd
+        text: Database
+      - href: datadict.qmd
+        text: Data Dictionary
+      - href: databaseversions.qmd
+        text: Database Versions
+      - href: sources.qmd
+        text: Sources
+      - href: limitations.qmd
+        text: Limitations
+      - href: download.qmd
+        text: Download
+        
+  - id: app
+    contents:
+      - href: applications.qmd
+        text: Interactive App
+        
+  - id: Team
+    contents:
+      - href: authors.qmd
+        text: Team
+        
+  - id: Citation
+    contents:
+      - href: citation.qmd
+        text: Citation       
+
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    
