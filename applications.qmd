@@ -1,7 +1,0 @@
----
-title: "Visualize the Data"
----
-
-Explore the dynamics of German state parliaments with our interactive dashboard. 
-
-Please refer to the [shiny application](https://statepol.shinyapps.io/statepol_shiny/).
