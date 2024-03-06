@@ -144,14 +144,14 @@
     "href": "download.html",
     "title": "Download",
     "section": "",
-    "text": "To download the database in csv format please use this link:\n\nStatePol-CSV"
+    "text": "Download Data"
   },
   {
     "objectID": "download.html#csv",
     "href": "download.html#csv",
     "title": "Download",
     "section": "",
-    "text": "To download the database in csv format please use this link:\n\nStatePol-CSV"
+    "text": "Download Committee Data"
   },
   {
     "objectID": "download.html#r",
@@ -229,5 +229,12 @@
     "title": "The Database (Version: 1.0.1)",
     "section": "",
     "text": "Dataset\nDescription\nVariables\nObservations\n\n\n\n\nPolitician\nInformation on the all individual parliamentarians\n15\n12490\n\n\nMandate\nInformation on the mandates by mps\n10\n29553\n\n\nPPG\nLists the members of the parties / parliamentary factions\n8\n14848\n\n\nPPG-Leadership\nLists the members of the faction boards\n10\n2090\n\n\nPresidency\nLists the members of the presidiums\n8\n440\n\n\nCommittee\nLists the members of the committees\n28\n26637\n\n\nCabinet\nLists the members of the cabinets\n29\n2104"
+  },
+  {
+    "objectID": "download.html#csv-files",
+    "href": "download.html#csv-files",
+    "title": "Download",
+    "section": "",
+    "text": "Download Data"
   }
 ]

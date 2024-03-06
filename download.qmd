@@ -2,10 +2,10 @@
 title: "Download"
 ---
 
-## CSV
-To download the database in csv format please use this link:
+## CSV Files
 
-* [StatePol-CSV](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/StatePol/Database/tree/main/_data)
+{{< downloadthis _data/database.zip dname=statepol_data label="Download Data" icon=database-fill-down type=info class=data-button id=data_1.0.1.csv >}}
+
 
 ## R
 To download the data in R, you can use the `read.csv` function from the base R library.

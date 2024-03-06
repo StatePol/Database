@@ -28,6 +28,10 @@ To access the data please refer to the instruction on the [download](download.qm
 :::
 
 ```{r version_name_control, echo=FALSE, warning=FALSE, message=FALSE}
+## packages
+library(downloadthis)
+library(tidyverse)
+library(rio)
 
 ### VERSION NAMING EXCLUDED ###
 
