@@ -15,7 +15,7 @@ version_number <- readLines("VERSION")[1]
 data_dir <- "_data/database"
 
 # politician
-politicians_file_path <- file.path(data_dir, paste0("politicians_", version_number, ".csv"))
+politicians_file_path <- file.path(data_dir, paste0("politician_", version_number, ".csv"))
 politician <- read.csv(politicians_file_path)
 ```
 

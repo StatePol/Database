@@ -109,14 +109,14 @@
     "href": "databaseversions.html",
     "title": "Version Dictionary",
     "section": "",
-    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming"
+    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs"
   },
   {
     "objectID": "databaseversions.html#politician",
     "href": "databaseversions.html#politician",
     "title": "Version Dictionary",
     "section": "",
-    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming"
+    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs"
   },
   {
     "objectID": "sources.html",
@@ -158,7 +158,7 @@
     "href": "download.html#r",
     "title": "Download",
     "section": "R",
-    "text": "R\nTo download the data in R, you can use the read.csv function from the base R library.\n\nPolitician\n\n# fetch current version\ndatabase_version &lt;- readLines(url(\"https://raw.githubusercontent.com/StatePol/Database/main/VERSION\"))[1]\n\n# download data\npolitician &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/politician_\", database_version, \".csv\"))\n\nmandate &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/mandate_\", database_version, \".csv\"))\n\nppg &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/ppg_\", database_version, \".csv\"))\n\npggleadership &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/ppgleadership_\", database_version, \".csv\"))\n\npresidency &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/presidency_\", database_version, \".csv\"))\n\ncommittee &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/committee_\", database_version, \".csv\"))\n\ncabinet &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/cabinet_\", database_version, \".csv\"))"
+    "text": "R\nTo download the data in R, you can use the read.csv function from the base R library.\n\n# fetch current version\ndatabase_version &lt;- readLines(url(\"https://raw.githubusercontent.com/StatePol/Database/main/VERSION\"))[1]\n\n# download data\npolitician &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/politician_\", database_version, \".csv\"))\n\nmandate &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/mandate_\", database_version, \".csv\"))\n\nppg &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/ppg_\", database_version, \".csv\"))\n\npggleadership &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/ppgleadership_\", database_version, \".csv\"))\n\npresidency &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/presidency_\", database_version, \".csv\"))\n\ncommittee &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/committee_\", database_version, \".csv\"))\n\ncabinet &lt;- \n  read.csv(paste0(\"https://raw.githubusercontent.com/StatePol/Database/main/_data/database\", \"/cabinet_\", database_version, \".csv\"))"
   },
   {
     "objectID": "download.html#python",
@@ -186,14 +186,14 @@
     "href": "limitations.html",
     "title": "Limitations",
     "section": "",
-    "text": "114 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used due to their consistency over time.\nFor the politicians without a corresponding article, Wikipedia automatically generates a warning default URL, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= Firstname as written in table_Surname as written in table &action=edit&redlink=1”.\nUsing the data provided, the absence of a corresponding Wikipedia article is not a big issue since the id’s created with the error URL remain unique in all cases. However, in the event that a Wikipedia page is created for one of these politicians, the provided id would become outdated. Furthermore, the metadata such as birthplace and birthdate could not be obtained for these individuals but since this is only the case for 114 out of 7234 observations it does not really affect the quality of the data."
+    "text": "0 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used due to their consistency over time.\nFor the politicians without a corresponding article, Wikipedia automatically generates a warning default URL, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= Firstname as written in table_Surname as written in table &action=edit&redlink=1”.\nUsing the data provided, the absence of a corresponding Wikipedia article is not a big issue since the id’s created with the error URL remain unique in all cases. However, in the event that a Wikipedia page is created for one of these politicians, the provided id would become outdated. Furthermore, the metadata such as birthplace and birthdate could not be obtained for these individuals but since this is only the case for 0 out of 12490 observations it does not really affect the quality of the data."
   },
   {
     "objectID": "limitations.html#missing-urls",
     "href": "limitations.html#missing-urls",
     "title": "Limitations",
     "section": "",
-    "text": "114 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used due to their consistency over time.\nFor the politicians without a corresponding article, Wikipedia automatically generates a warning default URL, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= Firstname as written in table_Surname as written in table &action=edit&redlink=1”.\nUsing the data provided, the absence of a corresponding Wikipedia article is not a big issue since the id’s created with the error URL remain unique in all cases. However, in the event that a Wikipedia page is created for one of these politicians, the provided id would become outdated. Furthermore, the metadata such as birthplace and birthdate could not be obtained for these individuals but since this is only the case for 114 out of 7234 observations it does not really affect the quality of the data."
+    "text": "0 politicians listed in the database do not have a corresponding Wikipedia article, even though the Wikipedia tag at the end of the URL is essential to the data structure as it forms the basis for the id variable. The URL’s are used due to their consistency over time.\nFor the politicians without a corresponding article, Wikipedia automatically generates a warning default URL, beginning with “https://de.wikipedia.org/” and followed by “w/index.php?title= Firstname as written in table_Surname as written in table &action=edit&redlink=1”.\nUsing the data provided, the absence of a corresponding Wikipedia article is not a big issue since the id’s created with the error URL remain unique in all cases. However, in the event that a Wikipedia page is created for one of these politicians, the provided id would become outdated. Furthermore, the metadata such as birthplace and birthdate could not be obtained for these individuals but since this is only the case for 0 out of 12490 observations it does not really affect the quality of the data."
   },
   {
     "objectID": "limitations.html#report-an-issue",
