@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "StatePol",
     "section": "",
-    "text": "StatePol introduces a publicly available database on the members of German state parliaments and governments. This resource offers detailed information about the personal attributes of German state politicians, along with their roles and positions in both legislative and executive settings, spanning from 1990 to 2020.\nRenamed: cabinet_1.0.1.csv to cabinet_1.0.2.csv \nRenamed: committee_1.0.1.csv to committee_1.0.2.csv \nRenamed: mandate_1.0.1.csv to mandate_1.0.2.csv \nRenamed: politician_1.0.1.csv to politician_1.0.2.csv \nRenamed: ppg_1.0.1.csv to ppg_1.0.2.csv \nRenamed: ppgleadership_1.0.1.csv to ppgleadership_1.0.2.csv \nRenamed: presidency_1.0.1.csv to presidency_1.0.2.csv"
+    "text": "StatePol introduces a publicly available database on the members of German state parliaments and governments. This resource offers detailed information about the personal attributes of German state politicians, along with their roles and positions in both legislative and executive settings, spanning from 1990 to 2020."
   },
   {
     "objectID": "index.html#whats-in-the-database",
@@ -109,14 +109,14 @@
     "href": "databaseversions.html",
     "title": "Version Dictionary",
     "section": "",
-    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs"
+    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs\n\n\n1.0.3\nError Correction in PPG-Leadership"
   },
   {
     "objectID": "databaseversions.html#politician",
     "href": "databaseversions.html#politician",
     "title": "Version Dictionary",
     "section": "",
-    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs"
+    "text": "Version Number\nChanges\n\n\n\n\n1.0.0\nInitial Release\n\n\n1.0.1\nConsistent Variable Naming\n\n\n1.0.2\nCoded Gender NAs\n\n\n1.0.3\nError Correction in PPG-Leadership"
   },
   {
     "objectID": "sources.html",

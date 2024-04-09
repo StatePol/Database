@@ -9,3 +9,4 @@ tbl-colwidths: [25,75]
 | 1.0.0 | Initial Release |
 | 1.0.1 | Consistent Variable Naming |
 | 1.0.2 | Coded Gender NAs |
+| 1.0.3 | Error Correction in PPG-Leadership |
