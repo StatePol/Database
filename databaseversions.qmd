@@ -4,9 +4,11 @@ tbl-colwidths: [25,75]
 ---
 
 ## Politician
+
 | Version Number | Changes |
 | :--- | :--- |
-| 1.0.0 | Initial Release |
-| 1.0.1 | Consistent Variable Naming |
-| 1.0.2 | Coded Gender NAs |
-| 1.0.3 | Error Correction in PPG-Leadership |
+| 1.0.0 | Initial release |
+| 1.0.1 | Consistent variable naming |
+| 1.0.2 | Coded gender as NA where applicable |
+| 1.0.3 | Error correction in PPG leadership |
+| 1.0.4 | Error corrections for birthplaces and duplicates in politician data |
