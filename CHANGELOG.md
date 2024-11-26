@@ -1,7 +1,7 @@
 # Changelog
 ## [1.0.3] - 2024-11-26
 ### Fixed
-- Removed duplicated entries in (_mandate_)
+- Removed duplicated entries in `mandate.csv`
 - Set 20 incorrectly classified birthplaces to NA
 
 ## [1.0.2] - 2024-04-04
